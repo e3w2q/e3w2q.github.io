@@ -59,7 +59,7 @@ Raspberry Pi Zero WをUSBキーボードとして認識させ、Rubyでキーマ
 いずれちゃんとしたプログラムを載せたいと思っています。
 
 ## 今作っているSU120（Pro Micro版）
-![SU120 PCB](5.jpg)
+![SU120 PCB](5.png)
 
 コントローラーをPro Microに変更。
 

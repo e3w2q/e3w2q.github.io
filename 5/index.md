@@ -92,7 +92,7 @@ Pro Microの3という印字のスルーホール（青色の四角）と繋ぐ�
 
 ![connect_address](connect_address.jpg)
 
-Rev.6は基板の状態でPro Microの下から1行目、2行目…と配線されています。
+なお、Rev.6は基板の状態でPro Microの下から1行目、2行目…と配線されていますので、下または右に基板を連結して行と列を結線すると、Pro Microとの結線なしに拡張できます。
 
 ![7](7.jpg)
 

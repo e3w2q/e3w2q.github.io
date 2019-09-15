@@ -76,13 +76,13 @@ M2ネジのネジ穴は、最初1.3mmで、途中から1.28mmで設計してい�
 
 横方向も同様に、ROWと印字されたスルーホール（下図の青色のマル印）が導通するようにします。
 
-![connect_address](C:\tool\GitHub\temp\sasami88\connect_address.jpg)
+![connect_address](connect_address.jpg)
 
 縦横の導通が確認できたら、次はPro Microと縦横のラインを接続します。まず、基板の表を見てください。
 
 基板の表側から見て、横がA B C D E F G H I J、縦が1 2 3 4 5 6となります（最大で横10縦6、ロータリーエンコーダー2個を使う場合は最大で横6、縦6）。MS Excelの番地の付け方と同じです。
 
-![front_side_with_address](C:\tool\GitHub\temp\sasami88\front_side_with_address.jpg)
+![front_side_with_address](front_side_with_address.jpg)
 
 基板を裏返して、Pro Micro裏のシルク印刷の番地と該当行・該当列をポリウレタン銅線（UEW線）などで結線します。このとき、Pro Microと該当行・該当列は、どのスルーホールに繋いでもよいです。
 
@@ -90,7 +90,7 @@ M2ネジのネジ穴は、最初1.3mmで、途中から1.28mmで設計してい�
 
 Pro Microの3という印字のスルーホール（青色の四角）と繋ぐのは、3行目のスルーホール（青色のマル）のどれでも構いません。
 
-![connect_address](C:\tool\GitHub\temp\sasami88\connect_address.jpg)
+![connect_address](connect_address.jpg)
 
 Rev.6は基板の状態でPro Microの下から1行目、2行目…と配線されています。
 

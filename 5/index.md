@@ -51,16 +51,16 @@ M2ネジのネジ穴は、最初1.3mmで、途中から1.28mmで設計してい�
 
 | 印字         |   |                                                     | 数量 | 概要             | JISレイアウトでの接続例 |
 | ------------ | ------------------------------------------------------ | ---- | ---------------- | ---------------- | ---------------- |
-| 1u linear    | ![](1u_linear.jpg) | ![](1u_linear.png) | 5    | 1U間を接続 | ![](b2-0.png)<br />![](b2-0b.png) |
-| 1.25u linear | ![](1.25u_linear.jpg) | ![](1.25u_linear.png)                                                         | 2     | 1Uと1.25Uを接続                 | ![](b3-0.png) |
-| 1.5u linear<br />1u linear | ![](1.5u_linear_1u_linear.jpg) | ![](1.5u_linear_1u_linear.png)                                                         | 1     | 1Uと1.5Uを接続<br />1.25U同士を接続<br />切れ目で切り離すと1u linearとして使える | ![](b4-0.png)<br />![](b4-0b.png) |
-| 2u linear<br />1.5u linear<br />1u linear | ![](2u_linear_1.5u_linear_1u_linear.jpg) | ![](2u_linear_1.5u_linear_1u_linear.png)                                                         | 1     | 1Uとスタビライザー無しの2Uを接続<br />0.5U空けたキー配置にも使用<br />切れ目で切り離すと1.5u linearまたは1u linearとして使える | ![](b6-0.png)<br />![](b6-0b.png) |
+| 1u linear    | ![](1u_linear.jpg) | ![](1u_linear.png) | 5 | 1U間を接続 | ![](b2-0.png)<br />![](b2-0b.png) |
+| 1.25u linear | ![](1.25u_linear.jpg) | ![](1.25u_linear.png)  | 2 | 1Uと1.25Uを接続 | ![](b3-0.png) |
+| 1.5u linear<br />1u linear | ![](1.5u_linear_1u_linear.jpg) | ![](1.5u_linear_1u_linear.png) | 1 | 1Uと1.5Uを接続<br />1.25U同士を接続<br />切れ目で切り離すと1u linearとして使える | ![](b4-0.png)<br />![](b4-0b.png) |
+| 2u linear<br />1.5u linear<br />1u linear | ![](2u_linear_1.5u_linear_1u_linear.jpg) | ![](2u_linear_1.5u_linear_1u_linear.png) | 1 | 1Uとスタビライザー無しの2Uを接続<br />0.5U空けたキー配置にも使用<br />切れ目で切り離すと1.5u linearまたは1u linearとして使える | ![](b6-0.png)<br />![](b6-0b.png) |
 | 1/8u stagger    | ![](1-8u_stagger.jpg) | ![](1-8u_stagger.png) | 6    | 1Uを0.125u(1/8u)ずらして接続 | ![](b2-1.png)<br />![](b2-1b.png) |
 | 0.25u stagger    | ![](0.25u_stagger.jpg) | ![](0.25u_stagger.png) | 4    | 1Uを0.25u(1/4u)ずらして接続<br />1Uを0.5u(1/2u)ずらして接続する場合にも使用 | ![](b2-2.png)<br />![](b2-2b.png) |
 | 3/8u stagger    | ![](3-8u_stagger.jpg) | ![](3-8u_stagger.png) | 1    | 1Uを0.375u(3/8u)ずらして接続 | ![](b2-3.png)<br />![](b2-3b.png) |
-| 0.5u stagger<br />0.25u stagger    | ![](0.5u_stagger_0.25u_stagger.jpg) | ![](0.5u_stagger_0.25u_stagger.png) | 1    | 1Uを0.5u(1/2u)ずらして接続<br />切れ目で切り離すと0.25u staggerとして使える | ![](b2-4.png) |
-| 5/8u stagger<br />3/8u stagger    | ![](5-8u_stagger_3-8u_stagger.jpg) | ![](5-8u_stagger_3-8u_stagger.png) | 1    | 1Uを0.625u(5/8u)ずらして接続<br />切れ目で切り離すと3/8u staggerとして使える | ![](b2-5.png) |
-| 0.75u stagger<br />3/8u stagger    | ![](0.75u_stagger_3-8u_stagger.jpg) | ![](0.75u_stagger_3-8u_stagger.png) | 1    | 1Uを0.75u(3/4u)ずらして接続<br />切れ目で切り離すと3/8u staggerとして使える | ![](b2-6.png) |
+| 0.5u stagger<br />0.25u stagger    | ![](0.5u_stagger_0.25u_stagger.jpg) | ![](0.5u_stagger_0.25u_stagger.png) | 1 | 1Uを0.5u(1/2u)ずらして接続<br />切れ目で切り離すと0.25u staggerとして使える | ![](b2-4.png) |
+| 5/8u stagger<br />3/8u stagger    | ![](5-8u_stagger_3-8u_stagger.jpg) | ![](5-8u_stagger_3-8u_stagger.png) | 1 | 1Uを0.625u(5/8u)ずらして接続<br />切れ目で切り離すと3/8u staggerとして使える | ![](b2-5.png) |
+| 0.75u stagger<br />3/8u stagger | ![](0.75u_stagger_3-8u_stagger.jpg) | ![](0.75u_stagger_3-8u_stagger.png) | 1 | 1Uを0.75u(3/4u)ずらして接続<br />切れ目で切り離すと3/8u staggerとして使える | ![](b2-6.png) |
 
 ### 補足など
 

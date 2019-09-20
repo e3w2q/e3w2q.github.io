@@ -31,11 +31,11 @@
 
 PCBのデータはこちらに載せています。配線の制約条件が少なく、楽しく書けました。
 
-https://github.com/e3w2q/re5-macropad/tree/master/pcb
+[https://github.com/e3w2q/re5-macropad/tree/master/pcb](https://github.com/e3w2q/re5-macropad/tree/master/pcb)
 
 ビルドガイドはこちらです。
 
-https://github.com/e3w2q/re5-macropad-doc/blob/master/readme_jp.md
+[https://github.com/e3w2q/re5-macropad-doc/blob/master/readme_jp.md](https://github.com/e3w2q/re5-macropad-doc/blob/master/readme_jp.md)
 
 基板とPro Microとロータリーエンコーダーとキャップとすべりどめと、シンプルなパーツで構成されています。
 

@@ -25,7 +25,7 @@
 
 自作キーボードの例をネットで探して、[トビーネットさんの寿司キーボード](https://twitter.com/toby_net/status/1027880023749885952)を見つけて、トッププレート無しでもいいんだ、と思ったことを覚えています。
 
-KiCadの使い方は、[KiCadで雑に基板を作る チュートリアル](https://www.slideshare.net/soburi/kicad-53622272)とai03さんの[PCB Guide Part 1 - Pre... | Keyboard Wiki @ ai03.me](https://wiki.ai03.me/books/pcb-design/page/pcb-guide-part-1---preparations)を見て学びました。
+KiCadの使い方は、[KiCadで雑に基板を作る チュートリアル](https://www.slideshare.net/soburi/kicad-53622272)とai03さんの[PCB Guide Part 1 - Preparations](https://wiki.ai03.me/books/pcb-design/page/pcb-guide-part-1---preparations)を見て学びました。
 
 設計にあたって、ものすごく眺めたのは[ogatatuさんのCherry-Mx-Bitboard](https://github.com/ogatatsu/Cherry-Mx-Bitboard)です。
 
@@ -194,8 +194,6 @@ M1.4ネジがゆるい場合があったので、ネジ穴のサイズを1.28か
 ウィルコ、ヒロスギのM1.4ネジではネジ穴がキツすぎる場合があったので、サイズを1.26から1.28に戻しました。これにより、国内ネジだとナット無しで、Aliexpressの安いネジだとナット有りでちょうど固定できるようになったので、いいバランスになったと思います。
 
 トッププレートをビスケットで接続しようとするとキースイッチに干渉したので、トッププレートからはM1.4ネジ穴を無くしました。
-
-![su120platerev2](su120platerev2.jpg)
 
 ![su120platerev2pcb](su120platerev2pcb.png)
 

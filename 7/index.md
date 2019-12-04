@@ -3,7 +3,7 @@
 
 この記事は[キーボード #1 Advent Calendar 2019](https://adventar.org/calendars/4117)の3日目の記事です。
 
-昨日の記事はkymokさんの[4uスペースバーを作る](https://github.com/kymok/4u_spacebar_buildlog/blob/master/Making_a_4u_spacebar_ja.md)でした。明日の記事はsirojakeさんの自作ステムについてです。
+昨日の記事はkymokさんの[4uスペースバーを作る](https://github.com/kymok/4u_spacebar_buildlog/blob/master/Making_a_4u_spacebar_ja.md)でした。次の記事はsirojakeさんの[自作ステム](https://note.com/yokutsukausaba/n/n281f1208fd07)です。
 
 ## まとめ
 

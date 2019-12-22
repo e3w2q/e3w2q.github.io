@@ -1,31 +1,23 @@
-# Duplex Matrixを自作キーボードで使うには
+# Duplex-Matrixを自作キーボードで使う方法
 2019/12/23
 
 この記事は[キーボード #2 Advent Calendar 2019](https://adventar.org/calendars/4332)の23日目の記事です。
 
-次の記事は????????神????????さんのトラックボールマウスを分解してArduino Microで動かした話です。
+昨日の記事はblock_cube_libさんの[HHKBから自作キーボードに乗り換えた話](https://block-cube-lib.github.io/posts/keyboard-advent-calendar-2019/)でした。次の記事は????????神????????さんのトラックボールマウスを分解してArduino Microで動かした話です。
 
-## Duplex Matrixとは
+## Duplex-Matrix（倍マトリクス）とは
 
-Duplex Matrixとは、キーボードの状態のスキャンの仕方を工夫することで、コントローラーで把握できるキー数を2倍にするというものです。
+Duplex-Matrix（倍マトリクス）とは、キーボードの状態のスキャンの仕方を工夫することで、コントローラーで把握できるキー数を2倍にするというものです。
 
-より汎用的な2乗マトリクスというものもあります<a href="#foot1">[1]</a>。
-
-
-
-[あぷろ](https://twitter.com/elfmimi)さんが2019/5/1に[Self-Made Keyboards in Japan Discord Server](https://scrapbox.io/self-made-kbds-ja/Self-Made_Keyboards_in_Japan)の#photo-shareに最初に投稿されました（着想は2019年11月とのこと）。
+国内の自作キーボードコミュニティにおいては、[あぷろ](https://twitter.com/elfmimi)さんが2018/11/10に[Self-Made Keyboards in Japan Discord Server](https://scrapbox.io/self-made-kbds-ja/Self-Made_Keyboards_in_Japan)に着想を投稿<a href="#foot1">[1]</a>し、その後2019/5/1に実装例が投稿<a href="#foot2">[2]</a>され、認知されるようになりました。
 
 最近では、天下一キーボードわいわい会Vol.3で[かーくんさんが販売された](https://twitter.com/kakunkb/status/1199512313822240770)[わんわんわんきーぼーど](https://github.com/qmk/qmk_firmware/tree/master/keyboards/thedogkeyboard)にもこの方法が使われています。
 
-[PRここから] 例えば拙作の[SU120](https://github.com/e3w2q/su120-keyboard)では2つのコントローラーを使うと120キーまでのキーボードを作れますが、Duplex Matrix法を使えばなんと倍の240キーのキーボードが作れてしまいます。[PRここまで]
-
-![240key](240key.png)
-
-というネタは置いておいて、このDuplex Matrix法を自分の理解できる範囲で整理してみました。C言語は正直雰囲気しかわからないので、間違っている部分があれば、ご指摘いただけると幸いです。
+このDuplex-Matrixを自分の理解できる範囲で整理してみました。C言語のきちんとした知識を持っていないので、間違っている部分があればご指摘いただけると幸いです。
 
 ## 基本のキーマトリクススキャン
 
-本題のDuplex Matrix法の説明に入る前に、基本のマトリクススキャンについて触れておきます。
+本題のDuplex-Matrixの説明に入る前に、基本のマトリクススキャンについて触れておきます。
 
 多くの自作キーボードでは、限られたGPIO数でたくさんのキーの状態を取得するために、キースイッチをマトリクス状に配線して、何行目、何列目の通電状態が変わったかを判定します。
 
@@ -37,13 +29,25 @@ Duplex Matrixとは、キーボードの状態のスキャンの仕方を工夫�
 
 この例では、例えばSW2のキーが押されたときに、COL2からROW1に流れる電流の状態が変化します。
 
-ダイオードは、キーが同時押しされたときに正しく判別するために必要となります。このあたりの詳しい話は[キーボード自作のススメ](https://www.slideshare.net/Retrieva_jp/ss-86955149)の24スライド目以降にわかりやすく説明されています。
+ダイオードは、キーが同時押しされたときに正しく判別するために必要となります。以下の記事が詳しいです。
+
+- IKeJIさんの[キーボードのマトリクス方式の分類](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html)の[マトリクスの項](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html#%E3%83%9E%E3%83%88%E3%83%AA%E3%82%AF%E3%82%B9)
+- [キーボード自作のススメ](https://www.slideshare.net/Retrieva_jp/ss-86955149)の24スライド目以降
+- ゆかりさんの[オリジナルキーボードを作ってみる その7「キーマトリックス」 - ゆかりメモ](http://eucalyn.hatenadiary.jp/entry/original-keyboard-07)
+
+### 基本の回路の実装
+
+自作キーボード試作用基板の[SU120](https://github.com/e3w2q/su120-keyboard)で実装してみた例です。
+
+![6key](6key.jpg)
+
+![6key_back](6key_back.jpg)
 
 ### 基本のファームウェア
 
-話を戻して、この回路図に対応したファームウェアをQMK Firmwareで作成してみます。
+この回路図に対応したファームウェアをQMK Firmwareで作成してみます。
 
-QMK Firmwareのインストールは[Getting Started - QMK](https://beta.docs.qmk.fm/newbs/newbs_getting_started)を参照してください。
+QMK Firmwareのインストールについては、[はじめに - QMK Firmware](https://docs.qmk.fm/#/ja/newbs_getting_started)を参照してください。
 
 QMK Firmwareのインストールの後、プロジェクトのひな形を作成します。
 
@@ -56,7 +60,7 @@ Keyboard Type [avr]:
 Your Name [e3w2q]:
 ```
 
-回路図に合うようにプロジェクトを修正します。[修正点はここに載せています](https://github.com/e3w2q/qmk_firmware/commit/75feae784f16063fcb511fa320448eeebfb23902)。config.hのキーマトリクスに関する部分は以下のようになります。
+回路図に合うようにプロジェクトを修正します。config.hのキーマトリクスに関する部分は以下のようになります。
 
 ```c
 /* key matrix size */
@@ -68,6 +72,8 @@ Your Name [e3w2q]:
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW // COL（列）のピンからROW（行）のピンに電流が流れるようにダイオードを付けた場合はCOL2ROW、逆向きの場合はROW2COL
 ```
+
+[修正点の全体はここに載せています](https://github.com/e3w2q/qmk_firmware/commit/75feae784f16063fcb511fa320448eeebfb23902)。
 
 これをPro Microに書き込んで、回路図のとおりに配線すると、片手2x3の分割キーボードとなります。
 
@@ -137,25 +143,35 @@ uint8_t matrix_scan(void) {
 
 COL2ROWの場合なら、一行（row）ずつ、その行の各列(col)の状態を読んでいます（read_cols_on_row）。
 
-## Duplex Matrix法によるマトリクススキャン
+## Duplex-Matrixによるマトリクススキャン
 
-### Duplex Matrix法の回路
+### Duplex-Matrixの回路
 
-では、先ほどの片手2x3の回路を、使うGPIOピン数は変えずに、Duplex Matrix法を使って二倍のキー数を判別できるようにしてみます。
+では、先ほどの片手2x3の回路を、使うGPIOピン数は変えずに、Duplex-Matrixを使って二倍のキー数を判別できるようにしてみます。
 
 ![schema5](schema5.png)
 
-既存のCOL2ROWのキーマトリクス（2行×3列＝6キー）をコピーして、ダイオードの向きだけ変更したROW2COLのキーマトリクス（2行×3列＝6キー）を増やしました（片手側計12キー）。
+既存のCOL2ROWのキーマトリクス（2行×3列＝6キー）をコピーして、ダイオードの向きだけ変更したROW2COLのキーマトリクス（2行×3列＝6キー）を増やしました（片手側は計6キーから計12キーに）。
 
-回路図の修正は、実はこれだけです。
+回路図の修正は、これだけです。とてもシンプル。
 
-COLからROW方向にのみスキャンしていたキーマトリクスに、ROWからCOL方向にスキャンするキーマトリクスを加えたものが、Duplex Matrixなのです。
+COLからROW方向にのみスキャンしていたキーマトリクスに、ROWからCOL方向にスキャンするキーマトリクスを加えたものが、Duplex-Matrixなのです。
 
-### Duplex Matrix法のファームウェア
+### Duplex-Matrixの回路の実装
+
+[SU120](https://github.com/e3w2q/su120-keyboard)で実装した例です。
+
+![12key](12key.jpg)
+
+![12key_back](12key_back.jpg)
+
+（手持ちのソケットが尽きたので、キー入力のテストはピンセットで行いました）
+
+### Duplex-Matrixのファームウェア(1)
 
 QMK Firmwareの標準設定では、config.hのDIODE_DIRECTIONをCOL2ROW、またはROW2COLと設定することで、matrix.cの_matrix_scan関数でCOLからROW方向、またはROWからCOL方向のスキャンが行われます。
 
-Duplex Matrix法では、**COLからROW方向のスキャン**と**ROWからCOL方向のスキャン**を**両方**行いたいので、自分でmatrix.cを用意する必要があります。
+Duplex-Matrixでは、**COLからROW方向のスキャン**と**ROWからCOL方向のスキャン**を**両方**行いたいので、自分でマトリクススキャンを書く必要があります。
 
 まずは、rules.mkで以下を記載します。
 
@@ -165,7 +181,7 @@ CUSTOM_MATRIX = yes
 
 これにより、標準のmatrix.cの読み込みが止まります。
 
-[QMK Firmwareのドキュメント](Lets you replace the default matrix scanning routine with your own code. You will need to provide your own implementations of matrix_init() and matrix_scan().)に
+[QMK Firmwareのドキュメント](https://docs.qmk.fm/#/getting_started_make_guide?id=rulesmk-options)に
 
 > ```
 > CUSTOM_MATRIX
@@ -174,7 +190,7 @@ CUSTOM_MATRIX = yes
 >
 > Lets you replace the default matrix scanning routine with your own code. You will need to provide your own implementations of matrix_init() and matrix_scan().
 
-と書いてありますので、自前でmatrix_init()とmatrix_scan()を実装する必要があります。
+と書いてあるとおり、自前でmatrix_init()とmatrix_scan()を実装する必要があります。
 
 rules.mkにさらに以下を追加し、自前のmatrix.cが読み込まれるようにします。
 
@@ -182,17 +198,13 @@ rules.mkにさらに以下を追加し、自前のmatrix.cが読み込まれる�
 SRC += matrix.c
 ```
 
-matrix.cはゼロから書くのではなく、分割キーボードであれば[quantum/split_common/matrix.c](https://github.com/qmk/qmk_firmware/blob/master/quantum/split_common/matrix.c)を、そうでない一体型キーボードであれば[quantum/matrix.c](https://github.com/qmk/qmk_firmware/blob/master/quantum/matrix.c)をコピーしてベースとするとよいです。
-
-今回は分割キーボードなので、[quantum/split_common/matrix.c](https://github.com/qmk/qmk_firmware/blob/master/quantum/split_common/matrix.c)を利用します。
-
-matrix.cの修正に入る前に、config.hを修正します。今回は列を2倍（横方向に2倍）することにします。
+matrix.cの前に、config.hを修正します。今回は列を2倍（横方向に2倍）することにします。
 
 ```diff
  /* key matrix size */
  #define MATRIX_ROWS 2*2 // 行数 右手側と左手側があるので、*2
 -#define MATRIX_COLS 3   // 列数
-+#define MATRIX_COLS 3*2 // 列数 Duplex Matrix法により、*2
++#define MATRIX_COLS 3*2 // 列数 Duplex-Matrix法により、*2
 ```
 
 ```diff
@@ -211,26 +223,102 @@ matrix.cの書き方次第でDIODE_DIRECTIONを無視することもできるの
 +#define DIODE_DIRECTION CUSTOM_MATRIX
 ```
 
-https://discordapp.com/channels/376937950409392130/381074986208591884/572998059793842187
+列数が増えたので、2x3test.h、keymaps/default/keymap.cも手直ししておきましょう。
 
-https://discordapp.com/channels/376937950409392130/418326189644709889/573354228701986828
+[ここまでの修正についてはここにまとめて載せています](https://github.com/e3w2q/qmk_firmware/commit/4f9630a07dc268771f6d62e96d5f3ab151a64c72)。
 
+### Duplex-Matrixのファームウェア(2)
 
+次にmatrix.cを用意します。
+
+matrix.cはゼロから書くのではなく、分割キーボードであれば[quantum/split_common/matrix.c](https://github.com/qmk/qmk_firmware/blob/master/quantum/split_common/matrix.c)を、そうでない一体型キーボードであれば[quantum/matrix.c](https://github.com/qmk/qmk_firmware/blob/master/quantum/matrix.c)をコピーしてベースとするとよいです。
+
+今回は分割キーボードなので、[quantum/split_common/matrix.c](https://github.com/qmk/qmk_firmware/blob/master/quantum/split_common/matrix.c)を利用します。
+
+書き換えの基本的な考え方は以下のとおりです。
+
+デフォルトmatrix.cではDIRECT_PINS、COL2ROW、ROW2COLのマトリクススキャンしか書かれていないので、CUSTOM_MATRIX用の分岐を入れます。
+
+```diff
+ #ifdef DIRECT_PINS
+ //...
+ #elif (DIODE_DIRECTION == COL2ROW)
+ //...
+ #elif (DIODE_DIRECTION == ROW2COL)
+ //...
++#elif (DIODE_DIRECTION == CUSTOM_MATRIX)
++//...
+ #endif
+```
+
+COL2ROWのスキャンを行ってからROW2COLのスキャンを行うようにします。COL2ROWのスキャンは、元の列の範囲（今回なら1～3列目）で行い、ROW2COLのスキャンは、増やした列の範囲（今回なら4～6列目）で行います。
+
+```diff
++    // Set row, read cols
++    for (uint8_t current_row = 0; current_row < ROWS_PER_HAND; current_row++) {
++        changed |= read_cols_on_row(raw_matrix, current_row);
++    }
++    // Set col, read rows
++    for (uint8_t current_col = MATRIX_COLS/2; current_col < MATRIX_COLS; current_col++) {
++        changed |= read_rows_on_col(raw_matrix, current_col);
++    }
+```
+
+正直、matrix.cをDuplex-Matrix用に修正する作業がなかなかうまくいかず一番大変だったのですが、コードをたくさん貼っても面白くないので、[デフォルトのmatrix.cからの変更点についてはここにまとめて載せました](https://github.com/e3w2q/qmk_firmware/commit/762fe3e0a7cbea768245a75520f06ff5a2f00b9f)。
 
 ## おわりに
 
-SU120のいいところは、こんなレイアウトのキーボードが作りたい、と思ったときに基板設計や3Dプリンタ無しで、ドライバーとニッパーとハンダごてで作れるところです。
+これで、通常のキーマトリクスに必要なピン数の1/2のピン数でキーマトリクススキャンを行えるようになりました！
 
-![negima5](negima5.jpg)
+例えば拙作の[SU120](https://github.com/e3w2q/su120-keyboard)では2つのPro Microを使うと120キーまでのキーボードを作れるというものですが、Duplex-Matrixを使えばなんと倍の240キーのキーボードが作れてしまいます。
 
-これまで数名の興味を持たれた方にSU120でキーボードを組んでもらえて、ありがたいなあと思っています。
+![240key](C:/tool/GitHub/e3w2q.github.io/8/240key.png)
 
-自作キーボードの最近のトレンドである制音、高級路線からは離れた下道コースですが、興味を持っていただけたら幸いです。
+まあ、ここまでのキー数は不要としても、1つのPro Microでフルキーボードのキー数を使えるのは魅力的ですよね。
 
-この記事は[Nin76](https://masahikosawada.github.io//keyboards/nin76.html)と[Momo120](https://github.com/e3w2q/su120-keyboard-doc/blob/master/momo120/readme_jp.md)を使って書きました。
+また、ロータリーエンコーダーを使うとピン数が足りなくなりがちになるので、そういう際にも便利です。
 
-<p id="foot1">[1] Here is my first footnote.</p>
-<p id="foot2">[2] Another footnote.</p>
+サンプルコードの全体は以下に載せています。
 
+https://github.com/e3w2q/qmk_firmware/tree/2x3test/keyboards/2x3test
 
+皆さんの自作キーボード設計の一助となれば幸いです。
+
+この記事は、あぷろさんの着想、かーくんさんの[わんわんわんきーぼーどのQMK Firmwareソースコード](https://github.com/qmk/qmk_firmware/tree/master/keyboards/thedogkeyboard)を読んで得た知識をもとに書きました。あぷろさん、かーくんさん、ありがとうございました。
+
+## 補足:その他の特殊なマトリクスについて
+
+記事を書くにあたって、Self-Made Keyboards in Japan Discord ServerでDuplex-Matrixの初出を尋ねたところ、ここで説明したDuplex-Matrixのほかのマトリクス回路のお話も聞くことができました。
+
+### チャーリープレックス
+
+1995年にMaxim Integrated社のCharlie Allen氏が考案したLEDマトリクスのコントロール方法。各ピンの間にLEDを2つ付けるもの（それぞれ逆向き）。Nピンで、(N-1)*Nのマトリクスを制御できる。
+
+https://en.wikipedia.org/wiki/Charlieplexing
+
+### 2乗マトリクス
+
+チャーリープレックスをキーマトリクスに適用したもの。各ピンの間にスイッチ＋ダイオードを2つ付けるもの（ダイオードはそれぞれ逆向き）。Nピンで、(N-1)*Nのマトリクスを取得できるので、Duplex-Matrixよりさらに多くのキースイッチを付けられます。IKeJIさんの[キーボードのマトリクス方式の分類](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html)の[2乗マトリクスの項](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html#2%E4%B9%97%E3%83%9E%E3%83%88%E3%83%AA%E3%82%AF%E3%82%B9)に詳しく載っています。
+
+国内自作キーボードコミュニティでは、IKeJIさんが[2017年10月3日にTwitterで触れ](https://twitter.com/ikeji/status/915069191119544321)、[2018年に電卓で実装された](https://www.ikejima.org/projects/2018021-calc.html)のが初出のようです。
+
+### 海外キーボードコミュニティでの"Duplex Matrix"
+
+マトリクスを組み替えることで使用するピン数を削減するもの。
+
+https://wiki.ai03.me/books/pcb-design/page/matrices-and-duplex-matrix
+
+例えばUS60%キーボード（61キー）を素直にマトリクスで組もうとすると、5行×14列=最大70キーとなり、ピンは5+14=19必要となります。
+
+![us60percentkeyboard](us60percentkeyboard.png)
+
+マトリクスの組み方を工夫し、列に使うピン数を1/2に、行に使うピン数を2倍にしても同じキー数を実現できます。こうすると10x7=最大70キーはそのままで、必要なピン数は10+7=17となり、使用するピン数が2つ減りました。
+
+もともとai03さんが2017年にWebに掲載した記事の言葉がキーボードコミュニティで定着した（してしまった）とのことです<a href="#foot3">[3]</a>。
+
+<hr />
+<p id="foot1">[1] https://discordapp.com/channels/376937950409392130/377073908496465920/510497794843213824</p>
+<p id="foot2">[2] https://discordapp.com/channels/376937950409392130/381074986208591884/572998059793842187<br />
+https://discordapp.com/channels/376937950409392130/418326189644709889/573354228701986828</p>
+<p id="foot3">[3] https://discordapp.com/channels/376937950409392130/635679787905712148/658272879430860833</p>
 [一覧へ](../)

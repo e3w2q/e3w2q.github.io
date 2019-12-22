@@ -272,7 +272,7 @@ COL2ROWのスキャンを行ってからROW2COLのスキャンを行うように
 
 例えば拙作の[SU120](https://github.com/e3w2q/su120-keyboard)では2つのPro Microを使うと120キーまでのキーボードを作れるというものですが、Duplex-Matrixを使えばなんと倍の240キーのキーボードが作れてしまいます。
 
-![240key](C:/tool/GitHub/e3w2q.github.io/8/240key.png)
+![240key](240key.png)
 
 まあ、ここまでのキー数は不要としても、1つのPro Microでフルキーボードのキー数を使えるのは魅力的ですよね。
 
@@ -280,7 +280,7 @@ COL2ROWのスキャンを行ってからROW2COLのスキャンを行うように
 
 サンプルコードの全体は以下に載せています。
 
-https://github.com/e3w2q/qmk_firmware/tree/2x3test/keyboards/2x3test
+[https://github.com/e3w2q/qmk_firmware/tree/2x3test/keyboards/2x3test](https://github.com/e3w2q/qmk_firmware/tree/2x3test/keyboards/2x3test)
 
 皆さんの自作キーボード設計の一助となれば幸いです。
 
@@ -292,9 +292,9 @@ https://github.com/e3w2q/qmk_firmware/tree/2x3test/keyboards/2x3test
 
 ### チャーリープレックス
 
-1995年にMaxim Integrated社のCharlie Allen氏が考案したLEDマトリクスのコントロール方法。各ピンの間にLEDを2つ付けるもの（それぞれ逆向き）。Nピンで、(N-1)*Nのマトリクスを制御できる。
+1995年にMaxim Integrated社のCharlie Allen氏が考案したLEDマトリクスのコントロール方法。各ピンの間にLEDを2つ付けるもの（それぞれ逆向き）。Nピンで、(N-1)*Nのマトリクスを制御できます。
 
-https://en.wikipedia.org/wiki/Charlieplexing
+[https://en.wikipedia.org/wiki/Charlieplexing](https://en.wikipedia.org/wiki/Charlieplexing)
 
 ### 2乗マトリクス
 
@@ -306,7 +306,7 @@ https://en.wikipedia.org/wiki/Charlieplexing
 
 マトリクスを組み替えることで使用するピン数を削減するもの。
 
-https://wiki.ai03.me/books/pcb-design/page/matrices-and-duplex-matrix
+[https://wiki.ai03.me/books/pcb-design/page/matrices-and-duplex-matrix](https://wiki.ai03.me/books/pcb-design/page/matrices-and-duplex-matrix)
 
 例えばUS60%キーボード（61キー）を素直にマトリクスで組もうとすると、5行×14列=最大70キーとなり、ピンは5+14=19必要となります。
 

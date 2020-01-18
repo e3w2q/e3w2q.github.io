@@ -2,30 +2,42 @@
 
 ## Ruby合宿
 
-Rubyの基礎(前半)：[https://youtu.be/skrwPeQyzXE](https://youtu.be/skrwPeQyzXE)
+### Rubyの基礎(前半)
+
+[https://youtu.be/skrwPeQyzXE](https://youtu.be/skrwPeQyzXE)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/skrwPeQyzXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Rubyの基礎(後半)
 
-Rubyの基礎(後半)：[https://youtu.be/VyTIQ7gHPtM](https://youtu.be/VyTIQ7gHPtM)
+[https://youtu.be/VyTIQ7gHPtM](https://youtu.be/VyTIQ7gHPtM)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VyTIQ7gHPtM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### DXRubyライブラリの利用
 
-DXRubyライブラリの利用：[https://youtu.be/iITOjlmKXpU](https://youtu.be/iITOjlmKXpU)
+[https://youtu.be/iITOjlmKXpU](https://youtu.be/iITOjlmKXpU)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iITOjlmKXpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Ruby合宿2019夏 事前講義 【アプリ作成ポイント】
 
-Ruby合宿2019夏 事前講義 【アプリ作成ポイント】：https://youtu.be/J3zP39irrBU
+https://youtu.be/J3zP39irrBU
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J3zP39irrBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+講義資料：https://www.dropbox.com/s/pg7aw7mfet0vk1j/dxruby.pdf?dl=1
 
-Ruby導入からDXRubyでブロック崩しまでやってみる：https://youtu.be/ooOoSxrTkQo
+サンプルプログラム：https://www.dropbox.com/s/jg98hfsmc71e734/tutorial.zip?dl=1
+
+デモプログラム：https://www.dropbox.com/s/kjhsrq252ahfhow/example.zip?dl=1
+
+### Ruby導入からDXRubyでブロック崩しまでやってみる
+
+https://youtu.be/ooOoSxrTkQo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ooOoSxrTkQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### DXRubyのブロック崩しを応用してテニスゲームのPONもどきを作る
 
-DXRubyのブロック崩しを応用してテニスゲームのPONもどきを作る：https://youtu.be/DCBloddC-a8
+https://youtu.be/DCBloddC-a8
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DCBloddC-a8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 ## マニュアル
@@ -77,6 +89,42 @@ DXRubyのブロック崩しを応用してテニスゲームのPONもどきを�
 [[Ruby][DXRuby] ならせる！SE - あおたくノート](https://blog.aotak.me/post/69788761525/naraseru-se)
 
 [音の理屈と実践 - mirichiの日記](https://mirichi.hatenadiary.org/entry/20131214/p1)
+
+## タイトル画面
+
+[ミニゲームキット - mirichiの日記](https://mirichi.hatenadiary.org/entry/20140124/p1)
+
+## 物理演算
+
+[Chipmunkのエッセンス - mirichiの日記](https://mirichi.hatenadiary.org/entry/20131105/p1)
+
+[Chipmunkのエッセンス(2) - mirichiの日記](https://mirichi.hatenadiary.org/entry/20131106/p1)
+
+[Chipmunkのエッセンス(3) - mirichiの日記](https://mirichi.hatenadiary.org/entry/20131107/p1)
+
+[Chipmunkのエッセンス(4) - mirichiの日記](https://mirichi.hatenadiary.org/entry/20131108/p1)
+
+[Chipmunkのエッセンス(5) - mirichiの日記](https://mirichi.hatenadiary.org/entry/20131115/p1)
+
+[Chipmunkのエッセンス(6) - mirichiの日記](https://mirichi.hatenadiary.org/entry/20131116/p1)
+
+[Chipmunkのエッセンス(7) - mirichiの日記](https://mirichi.hatenadiary.org/entry/20131117/p1)
+
+[Chipmunkのエッセンス(8) - mirichiの日記](https://mirichi.hatenadiary.org/entry/20131118/p1)
+
+[Ruby合宿2017夏5日目 - Ruby合宿 公式サイト](https://www.rubycamp.jp/blog/5th-day-rc2017su.html)
+
+[RubyCamp/rc2017su_g6: RubyCamp2017Summer Group6](https://github.com/RubyCamp/rc2017su_g6)　Don't fall（５班）
+
+[RubyCamp/rc2017su_g4: RubyCamp2017Summer Group4](https://github.com/RubyCamp/rc2017su_g4)　アングリーハングリー（６班）
+
+[Ruby合宿2019春5日目 - Ruby合宿 公式サイト](https://www.rubycamp.jp/blog/5th-day-rc2019sp.html)
+
+[RubyCamp/rc2019sp_g2: RubyCamp2019Spring Group2](https://github.com/RubyCamp/rc2019sp_g2)　ピンボールとブロック崩しを足したようなゲーム
+
+[RubyCamp/rc2019sp_g4: RubyCamp2019Spring Group4](https://github.com/RubyCamp/rc2019sp_g4)　アクションゲーム
+
+[ChipmunkとTiledとDXRubyと私 - あおたくノート](https://blog.aotak.me/post/135635453291/chipmunk%E3%81%A8tiled%E3%81%A8dxruby%E3%81%A8%E7%A7%81)
 
 ## その他
 

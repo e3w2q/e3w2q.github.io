@@ -57,17 +57,14 @@ SU120を使って物足りなさを感じたら、自分にあったキットを
 
 いろいろなサイズの自作キットが販売されているので、合いそうなものがあればそれを買えばいいですが、
 
-- [Keyboard | 遊舎工房](https://yushakobo.jp/product-category/keyboard/)
+- [Keyboard - 遊舎工房](https://yushakobo.jp/product-category/keyboard/)
 - [25KEYS - BOOTH](https://25keys.booth.pm/)
 
 もしも合うものが見つからなくても、SU120で、好きなサイズ（コントローラー1つあたり最大6×10まで）のテンキーや格子配列キーボードを作成することができます。
 
-<div style="width:100%; overflow: scroll;">
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/SU120?src=hash&amp;ref_src=twsrc%5Etfw">#SU120</a> で55%（？）キーボード作ってみました。PCBのみは1回やってみたかったのですが、思ったより悪くない（精神衛生上以外は）。そしてUSBコネクタの位置はやっぱり邪魔くさかったので要改善。 <a href="https://t.co/0baJHFjIMv">pic.twitter.com/0baJHFjIMv</a></p>&mdash; ryuichio (@ryuichio1) <a href="https://twitter.com/ryuichio1/status/1186655304051613697?ref_src=twsrc%5Etfw">October 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">elecrow に発注したPCB待ってる間にひとつ試作版キーボードが完成してしまった。折りたたみ式ロープロortholinearの44キー。蝶番の軸パーツを引っこ抜くと分離も可能。軸パーツ自体も小物入れに・・・なるはずだったがサイズ的に大したものは入らないなこりゃ <a href="https://t.co/3V5z0U7afT">pic.twitter.com/3V5z0U7afT</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1196688512197677059?ref_src=twsrc%5Etfw">November 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">やっぱり寂しいのでピカらせてみた。<br>キーキャップももうこれでいいかな <a href="https://t.co/TBZVfOWNKO">pic.twitter.com/TBZVfOWNKO</a></p>&mdash; はなち (@haswellep) <a href="https://twitter.com/haswellep/status/1228556950289272833?ref_src=twsrc%5Etfw">February 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自分のタイピング癖に合わせた左右非対称キーボードを作るの進捗です。マットグレーのアクリルで作ってみたらミリタリー色が強くなったので更に強くしてみました。ロシア語表記のSAが欲しいです。脱線してます。<a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#自作キーボード</a> <a href="https://t.co/SWKajXtIze">pic.twitter.com/SWKajXtIze</a></p>&mdash; TALP KEYBOARD (@TalpKeyboard) <a href="https://twitter.com/TalpKeyboard/status/1234395893220048896?ref_src=twsrc%5Etfw">March 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
 
 ### 自分に合ったレイアウトのキーボードを試作する場合
 
@@ -80,10 +77,8 @@ SU120はビスケットとネジでいろいろなレイアウトを組むこと
 SU120をご使用になられたケースを2つ紹介します。
 
 #### elephant42
-<div style="width:100%; overflow: scroll;">
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">両手ぶんねじ止め完了。プロマイクロ部までふくめたケース出力もはじめた。あとはケース底部デザインと実際の配線だな。うんうん先は長いぞっと <a href="https://t.co/LJgvUClfq1">pic.twitter.com/LJgvUClfq1</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1190906588057333761?ref_src=twsrc%5Etfw">November 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/elephant42?src=hash&amp;ref_src=twsrc%5Etfw">#elephant42</a> ケースrev.6。開口部の位置と厚さを調整。またケースなしでサンドイッチマウントもできるようにした。ケース設計はとりあえずこれでFIXとして、このサイズと各種位置関係から基板設計をやっていこうかな。 <a href="https://t.co/89nmag6hjA">pic.twitter.com/89nmag6hjA</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1192222524324511745?ref_src=twsrc%5Etfw">November 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
 
 完成したキーボードキットは現在以下で販売されています。
 
@@ -92,10 +87,8 @@ SU120をご使用になられたケースを2つ紹介します。
 [elephant42 自作キーボードキット - うさぎごや - BOOTH](https://booth.pm/ja/items/1775017)
 
 #### colice
-<div style="width:100%; overflow: scroll;">
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/colice?src=hash&amp;ref_src=twsrc%5Etfw">#colice</a> プロト、恥ずかしながら、中はこんな感じで、プロト感満載です。<br>インジケータLEDはケースのテスト用に、一旦外してあります。<br><br>一応（？）トップマウントになっています。 <a href="https://t.co/BEhWbGk1i7">pic.twitter.com/BEhWbGk1i7</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1234820354649939970?ref_src=twsrc%5Etfw">March 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/colice?src=hash&amp;ref_src=twsrc%5Etfw">#colice</a> のキープレートv0.2への換装完了。<br>初期版と比較して、カラムスタガとロースタガのギャップが無くなり、薬指と小指のキーが近くなって良い。<br>ケースはハイプロフレームを一部削ったり切ったりして対応させたので、プロト感がさらに強まった。 <a href="https://t.co/25e9wZOTyX">pic.twitter.com/25e9wZOTyX</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1240260979214041088?ref_src=twsrc%5Etfw">March 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
 
 ### 小ネタキーボードを作る場合
 

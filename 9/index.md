@@ -9,7 +9,7 @@ SU120は最大120キーまで拡張可能な自作キーボード基板ですが
 
 <img src="sasami17-3.jpg?raw=true" width="50%">
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あとchocの2uも買った。やっぱ2uの位置は2uのキーキャップだな。しっくりくる。まあこれテンキーなんだけど <a href="https://t.co/21Sespo21R">pic.twitter.com/21Sespo21R</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1191222676078989312?ref_src=twsrc%5Etfw" width="100%">November 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" width="900"><p lang="ja" dir="ltr">あとchocの2uも買った。やっぱ2uの位置は2uのキーキャップだな。しっくりくる。まあこれテンキーなんだけど <a href="https://t.co/21Sespo21R">pic.twitter.com/21Sespo21R</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1191222676078989312?ref_src=twsrc%5Etfw">November 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%83%86%E3%83%B3%E3%82%AD%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#自作テンキー</a> OR15やっと完成。キー割当てをOLEDで、レイヤーをアンダーグローで表示。音量などを回して変更するのは気持ちいい。 <a href="https://t.co/Bhx8HuV5Yj">pic.twitter.com/Bhx8HuV5Yj</a></p>&mdash; ALTAX (@ALTAX8) <a href="https://twitter.com/ALTAX8/status/1213356161266667520?ref_src=twsrc%5Etfw">January 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 自作キーボードに興味を持ったときに、なかなか一気にお金をかけるリスクをとることが難しい場合もあると思います。私もそうでした。

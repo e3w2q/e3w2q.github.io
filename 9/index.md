@@ -9,7 +9,7 @@ SU120は最大120キーまで拡張可能な自作キーボード基板です。
 
 基板に添付のビスケットとM1.4ネジで自由なレイアウトを組むことができます。
 
-これまではほしい方が基板製造業者に直接発注し、パーツも別途入手するしかありませんでしたが、[TALP KEYBOARD](https://talpkeyboard.stores.jp/news/5e7ef1d09df163298ccc0521)にてSU120の取り扱いが始まり、[ほぼ週刊キーボードニュース #55](https://youtu.be/f5VaYMY0nKM?t=1435)でも取り上げていただきました。
+これまでは、ほしい方が基板製造業者に直接発注し、パーツ類も別途買い揃えるしかありませんでしたが、[TALP KEYBOARD](https://talpkeyboard.stores.jp/news/5e7ef1d09df163298ccc0521)にてSU120の取り扱いが始まり、[ほぼ週刊キーボードニュース #55](https://youtu.be/f5VaYMY0nKM?t=1435)でも取り上げていただきました。
 
 ## SU120をおすすめするケース
 
@@ -41,7 +41,7 @@ SU120はできるだけ最低限の要素でキーボードとして成立する
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あとchocの2uも買った。やっぱ2uの位置は2uのキーキャップだな。しっくりくる。まあこれテンキーなんだけど <a href="https://t.co/21Sespo21R">pic.twitter.com/21Sespo21R</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1191222676078989312?ref_src=twsrc%5Etfw">November 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%83%86%E3%83%B3%E3%82%AD%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#自作テンキー</a> OR15やっと完成。キー割当てをOLEDで、レイヤーをアンダーグローで表示。音量などを回して変更するのは気持ちいい。 <a href="https://t.co/Bhx8HuV5Yj">pic.twitter.com/Bhx8HuV5Yj</a></p>&mdash; ALTAX (@ALTAX8) <a href="https://twitter.com/ALTAX8/status/1213356161266667520?ref_src=twsrc%5Etfw">January 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-なお、市販の安いキーボードと比べると一般的な自作キーボードキットの価格が高いように感じてしまう場合もあるかもしれませんが、部品費用、キッティング費用、試作費や研究開発費を考慮すると、決して高くはなく、むしろ安価な場合も多々あります。
+市販の安いキーボードと比べると一般的な自作キーボードキットの価格は高いように感じてしまう場合もあるかもしれません。しかし、部品費用、キッティング費用、試作費や研究開発費を考慮すると、決して高くはなく、むしろ安価な場合も多々あります。
 
 SU120は基板ペライチですが、一般的な自作キーボードキットはケースなども含めて販売されており、打鍵感、見た目の美しさなど、製作者の工夫が詰まっています。
 
@@ -51,22 +51,22 @@ SU120を使って物足りなさを感じたら、自分にあったキットを
 
 ![sasami32-2](sasami32-2.jpg)
 
-テンキーを自作する大きなメリットは、入力されるキーを自由にカスタマイズできる点だと考えます。ファームウェアをカスタマイズすることにより、
+テンキーを自作する大きなメリットは、入力されるキーを自由にカスタマイズできる点だと思っています。ファームウェアをカスタマイズすることにより、
 
 - ワンキーで「00」「000」を入力する
-- NumLockキーを外す
-- NumLockオンオフで入力が変わってしまうテンキーの数字キーではなく、普通の数字が入力されるようにする
+- テンキーにTabキーや「,」キーを載せる
+- NumLockオンオフで入力が変わってしまう数字キーではなく、普通の数字が入力されるようにする
 
 などが可能となります。
 
 また、自作キーボード全般のメリットでもありますが、スイッチやキーキャップを変えることでお好みの打鍵感や見た目に変更することができます。
 
-いろいろなサイズの自作キットが販売されているので、合いそうなものがあればそれを買えばいいですが、
+いろいろなサイズの自作キットが販売されているので、合いそうなものがあればそれを買えばいいです
 
 - [Keyboard - 遊舎工房](https://yushakobo.jp/product-category/keyboard/)
 - [25KEYS - BOOTH](https://25keys.booth.pm/)
 
-もしも合うものが見つからなくても、SU120で、好きなサイズ（コントローラー1つあたり最大6×10まで）のテンキーや格子配列（Ortholinear）キーボードを作成することができます。
+が、もしも自分のほしいサイズのものが見つからなくても、SU120で、好きなサイズ（コントローラー1つあたり最大6×10まで）のテンキーや格子配列（Ortholinear）キーボードを作成することができます。
 
 SU120で格子配列キーボードを作られた例を紹介します。
 
@@ -74,7 +74,7 @@ SU120で格子配列キーボードを作られた例を紹介します。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">elecrow に発注したPCB待ってる間にひとつ試作版キーボードが完成してしまった。折りたたみ式ロープロortholinearの44キー。蝶番の軸パーツを引っこ抜くと分離も可能。軸パーツ自体も小物入れに・・・なるはずだったがサイズ的に大したものは入らないなこりゃ <a href="https://t.co/3V5z0U7afT">pic.twitter.com/3V5z0U7afT</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1196688512197677059?ref_src=twsrc%5Etfw">November 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">やっぱり寂しいのでピカらせてみた。<br>キーキャップももうこれでいいかな <a href="https://t.co/TBZVfOWNKO">pic.twitter.com/TBZVfOWNKO</a></p>&mdash; はなち (@haswellep) <a href="https://twitter.com/haswellep/status/1228556950289272833?ref_src=twsrc%5Etfw">February 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-一口に格子配列キーボードといっても、作る方によって全く違ったものができます。本当にどれも素敵です！
+一口に格子配列キーボードといっても、作る方によって全く違ったものができていますし、本当にどれも素敵です！
 
 ### 自分に合ったレイアウトのキーボードを試作する場合
 
@@ -90,27 +90,27 @@ SU120を使用いただいたケースを2つ紹介します。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">両手ぶんねじ止め完了。プロマイクロ部までふくめたケース出力もはじめた。あとはケース底部デザインと実際の配線だな。うんうん先は長いぞっと <a href="https://t.co/LJgvUClfq1">pic.twitter.com/LJgvUClfq1</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1190906588057333761?ref_src=twsrc%5Etfw">November 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/elephant42?src=hash&amp;ref_src=twsrc%5Etfw">#elephant42</a> ケースrev.6。開口部の位置と厚さを調整。またケースなしでサンドイッチマウントもできるようにした。ケース設計はとりあえずこれでFIXとして、このサイズと各種位置関係から基板設計をやっていこうかな。 <a href="https://t.co/89nmag6hjA">pic.twitter.com/89nmag6hjA</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1192222524324511745?ref_src=twsrc%5Etfw">November 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-完成したelephant42のキットは現在BOOTHの[うさぎごや](https://booth.pm/ja/items/1775017)で販売されています。プロトタイプからさらに細かな部分の調整が行われ、洗練されています。
+完成したelephant42のキットは現在BOOTHの[うさぎごや](https://booth.pm/ja/items/1775017)で販売されています。プロトタイプ版からさらに細かな部分の調整が行われ、洗練されています。
 
 [![usagigoya_shop](usagigoya_shop.png)](https://booth.pm/ja/items/1775017)
 
-製作者の@illness072さんはelephant42を常用しているらしいので、最短でend gameに到達するお手伝いができたのかもしれません。
+製作者の@illness072さんはelephant42を常用しているらしいので、最短でend gameに到達するお手伝いができたといえるかもしれません。
 
 #### colice
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/colice?src=hash&amp;ref_src=twsrc%5Etfw">#colice</a> プロト、恥ずかしながら、中はこんな感じで、プロト感満載です。<br>インジケータLEDはケースのテスト用に、一旦外してあります。<br><br>一応（？）トップマウントになっています。 <a href="https://t.co/BEhWbGk1i7">pic.twitter.com/BEhWbGk1i7</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1234820354649939970?ref_src=twsrc%5Etfw">March 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/colice?src=hash&amp;ref_src=twsrc%5Etfw">#colice</a> のキープレートv0.2への換装完了。<br>初期版と比較して、カラムスタガとロースタガのギャップが無くなり、薬指と小指のキーが近くなって良い。<br>ケースはハイプロフレームを一部削ったり切ったりして対応させたので、プロト感がさらに強まった。 <a href="https://t.co/25e9wZOTyX">pic.twitter.com/25e9wZOTyX</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1240260979214041088?ref_src=twsrc%5Etfw">March 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-@jpskennさんが作られているcoliceというキーボードでもSU120が使われています。一度組んでしばらく使用された後にレイアウトを修正されていて、現在はv0.2のようです。
+@jpskennさんが作られているcoliceというキーボードでもSU120が使われています。一度組んでしばらく使用された後にレイアウトを修正されていて、現在はv0.2です。
 
-このようなフルサイズのキーボードにも使ってもらえるのはありがたい限りです。
+Aliceスタイルの分割キーボードの間にテンキーが配置されていて実用性が高そうです。
 
 ### 小ネタキーボードを作る場合
 
 ![negima5](negima5.jpg)
 
-![kushi10](kushi10.jpg)
-
 ちょっとした思いつきでキーボードが作りたくなったときに、基板設計や3Dプリンタ無しで、さくっと作れます！楽しいです！
+
+![kushi10](kushi10.jpg)
 
 ## SU120の入手方法
 
@@ -137,16 +137,16 @@ SU120を使用いただいたケースを2つ紹介します。
 | スイッチソケット  | [Kailh PCBソケット(MXスイッチ用/10Piece)](https://talpkeyboard.stores.jp/items/5e02c5405b120c792616bcf9) | [スイッチ用PCBソケット（10個入り）](https://yushakobo.jp/shop/a01ps/)              |
 | キースイッチ<br>5ピンのものを推奨      | [キースイッチ](https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d) | [Switches](https://yushakobo.jp/product-category/switches/)          |
 | キーキャップ      | [DSAキーキャップ](https://talpkeyboard.stores.jp/?category_id=59e2acfaed05e644fd004008)<br>[キーキャップセット](https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1) | [Keycaps](https://yushakobo.jp/product-category/keycaps/)            |
-| Micro USBケーブル | [ケーブル](https://talpkeyboard.stores.jp/?category_id=5df828e87f16477b03950e7b) | [USBケーブル Micro B 1m](https://yushakobo.jp/shop/usb_cable_micro_b/)[自作ケーブルキット](https://yushakobo.jp/shop/self-made-cable/)           |
-| TRRSケーブル（分割キーボードの場合）              |                                                              | [TRRSケーブル 1m](https://yushakobo.jp/shop/trrs_cable/)<br>[自作ケーブルキット](https://yushakobo.jp/shop/self-made-cable/)             |
+| Micro USBケーブル※ | [ケーブル](https://talpkeyboard.stores.jp/?category_id=5df828e87f16477b03950e7b) | [USBケーブル Micro B 1m](https://yushakobo.jp/shop/usb_cable_micro_b/)[自作ケーブルキット](https://yushakobo.jp/shop/self-made-cable/)           |
+| TRRSケーブル※（分割キーボードの場合）              |                                                              | [TRRSケーブル 1m](https://yushakobo.jp/shop/trrs_cable/)<br>[自作ケーブルキット](https://yushakobo.jp/shop/self-made-cable/)             |
 
-コストを抑えたい場合はMicro USBケーブル、TRRSケーブル（AUXオーディオ接続コード）を100円ショップで調達する方法もあります。
+※コストを抑えたい場合はMicro USBケーブル、TRRSケーブル（AUXオーディオ接続コード）を100円ショップで調達する方法もあります。
 
 ### 基板製造業者に発注
 
 [![Elecrow](elecrow.png)](https://www.elecrow.com/pcb-manufacturing.html)
 
-[ELECROW基板製造サービス](https://www.elecrow.com/pcb-manufacturing.html)から注文します。
+これまでと同様に[ELECROW基板製造サービス](https://www.elecrow.com/pcb-manufacturing.html)から注文する方法もあります。
 
 アップロードするガーバーファイルは以下の中から必要なものを使ってください。
 
@@ -162,7 +162,9 @@ SU120を使用いただいたケースを2つ紹介します。
 
 ## 最後に
 
-自作キーボードの楽しみ方のひとつに、工夫がこらされた製品を買って愛でたり、自分に合うキットを探したりする楽しみ方がありますが、また別の楽しみ方として基板ペライチから自作キーボードを始めてみたり、自分で好きなレイアウトを模索してみたりと、SU120が自作キーボードの楽しみ方の間口を広げるひとつの機会になっていればいいなと思っています。
+自作キーボードの楽しみ方のひとつに、工夫がこらされた製品を買って愛でたり、自分に合うキットを探したりする楽しみ方があります。
+
+これとはまた別の楽しみ方としてSU120で基板ペライチから自作キーボードを始めてみたり、自分で好きなレイアウトを模索してみたりと、自作キーボードの楽しみ方の間口を広げるひとつの機会になっていればいいなと思っています。
 
 自作キーボードを楽しみましょう！！
 

@@ -41,7 +41,9 @@ SU120はできるだけ最低限の要素でキーボードとして成立する
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あとchocの2uも買った。やっぱ2uの位置は2uのキーキャップだな。しっくりくる。まあこれテンキーなんだけど <a href="https://t.co/21Sespo21R">pic.twitter.com/21Sespo21R</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1191222676078989312?ref_src=twsrc%5Etfw">November 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%83%86%E3%83%B3%E3%82%AD%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#自作テンキー</a> OR15やっと完成。キー割当てをOLEDで、レイヤーをアンダーグローで表示。音量などを回して変更するのは気持ちいい。 <a href="https://t.co/Bhx8HuV5Yj">pic.twitter.com/Bhx8HuV5Yj</a></p>&mdash; ALTAX (@ALTAX8) <a href="https://twitter.com/ALTAX8/status/1213356161266667520?ref_src=twsrc%5Etfw">January 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-市販の安いキーボードと比べると一般的な自作キーボードキットの価格は高いように感じてしまう場合もあるかもしれません。しかし、部品費用、キッティング費用、試作費や研究開発費を考慮すると、決して高くはなく、むしろ安価な場合も多々あります。
+#### 補足:自作キーボードの価格について
+
+市販の安いキーボードと比べると、一般的な自作キーボードキットの価格は高いように感じてしまう場合もあるかもしれません。しかし、部品費用、キッティング費用、試作費や研究開発費を考慮すると、決して高くはなく、むしろ安価な場合も多々あります。
 
 SU120は基板ペライチですが、一般的な自作キーボードキットはケースなども含めて販売されており、打鍵感、見た目の美しさなど、製作者の工夫が詰まっています。
 

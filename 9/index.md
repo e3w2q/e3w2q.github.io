@@ -57,13 +57,13 @@ SU120を使って物足りなさを感じたら、自分にあったキットを
 
 - ワンキーで「00」「000」を入力する
 - テンキーにTabキーや「,」キーを載せる
-- NumLockオンオフで入力が変わってしまう数字キーではなく、普通の数字が入力されるようにする
+- NumLockオンオフで入力内容が変わってしまうテンキーの数字キー入力ではなく、常に普通の数字キーが入力されたようにする
 
 などが可能となります。
 
 また、自作キーボード全般のメリットでもありますが、スイッチやキーキャップを変えることでお好みの打鍵感や見た目に変更することができます。
 
-いろいろなサイズの自作キットが販売されているので、合いそうなものがあればそれを買えばいいです
+いろいろなサイズの自作キットが販売されているので、合いそうなものがあればそれを買えばよいです
 
 - [Keyboard - 遊舎工房](https://yushakobo.jp/product-category/keyboard/)
 - [25KEYS - BOOTH](https://25keys.booth.pm/)
@@ -76,7 +76,7 @@ SU120で格子配列キーボードを作られた例を紹介します。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">elecrow に発注したPCB待ってる間にひとつ試作版キーボードが完成してしまった。折りたたみ式ロープロortholinearの44キー。蝶番の軸パーツを引っこ抜くと分離も可能。軸パーツ自体も小物入れに・・・なるはずだったがサイズ的に大したものは入らないなこりゃ <a href="https://t.co/3V5z0U7afT">pic.twitter.com/3V5z0U7afT</a></p>&mdash;   (   ) (@illness072) <a href="https://twitter.com/illness072/status/1196688512197677059?ref_src=twsrc%5Etfw">November 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">やっぱり寂しいのでピカらせてみた。<br>キーキャップももうこれでいいかな <a href="https://t.co/TBZVfOWNKO">pic.twitter.com/TBZVfOWNKO</a></p>&mdash; はなち (@haswellep) <a href="https://twitter.com/haswellep/status/1228556950289272833?ref_src=twsrc%5Etfw">February 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-一口に格子配列キーボードといっても、作る方によって全く違ったものができていますし、本当にどれも素敵です！
+一口に格子配列といっても、作る方によって全く違ったものができていますし、本当にどれも素敵です！
 
 ### 自分に合ったレイアウトのキーボードを試作する場合
 
@@ -166,7 +166,7 @@ Aliceスタイルの分割キーボードの間にテンキーが配置されて
 
 自作キーボードの楽しみ方のひとつに、工夫がこらされた製品を買って愛でたり、自分に合うキットを探したりする楽しみ方があります。
 
-これとはまた別の楽しみ方としてSU120で基板ペライチから自作キーボードを始めてみたり、自分で好きなレイアウトを模索してみたりと、自作キーボードの楽しみ方の間口を広げるひとつの機会になっていればいいなと思っています。
+これとはまた別の楽しみ方として、SU120で基板ペライチから自作キーボードを始めてみたり、自分で好きなレイアウトを模索してみたりと、SU120が自作キーボードの楽しみ方の間口を広げるひとつの機会になっていればいいなと思っています。
 
 自作キーボードを楽しみましょう！！
 

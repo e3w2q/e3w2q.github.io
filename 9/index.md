@@ -135,11 +135,11 @@ Aliceスタイルの分割キーボードの間にテンキーが配置されて
 
 | パーツ            | TALP KEYBOARD商品ページ                                      | 遊舎工房商品ページ |
 | ----------------- | ------------------------------------------------------------ | ------------------ |
-| Pro Micro         | [Pro Micro ATmega32U4 5V/16MHz/MicroUSB2(互換品) ](https://talpkeyboard.stores.jp/items/5b24504ba6e6ee7ec60063e3) | [Pro Micro （コンスルー付き）](https://yushakobo.jp/shop/promicro-spring-pinheader/)              |
+| Pro Micro         | [Pro Micro ATmega32U4 5V/16MHz/MicroUSB2(互換品) ](https://talpkeyboard.stores.jp/items/5b24504ba6e6ee7ec60063e3) | [Pro Micro （コンスルー付き）](https://yushakobo.jp/shop/promicro-spring-pinheader/)<br>※コンスルーは使いません              |
 | スイッチソケット  | [Kailh PCBソケット(MXスイッチ用/10Piece)](https://talpkeyboard.stores.jp/items/5e02c5405b120c792616bcf9) | [スイッチ用PCBソケット（10個入り）](https://yushakobo.jp/shop/a01ps/)              |
 | キースイッチ<br>5ピンのものを推奨      | [キースイッチ](https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d) | [Switches](https://yushakobo.jp/product-category/switches/)          |
 | キーキャップ      | [DSAキーキャップ](https://talpkeyboard.stores.jp/?category_id=59e2acfaed05e644fd004008)<br>[キーキャップセット](https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1) | [Keycaps](https://yushakobo.jp/product-category/keycaps/)            |
-| Micro USBケーブル※ | [ケーブル](https://talpkeyboard.stores.jp/?category_id=5df828e87f16477b03950e7b) | [USBケーブル Micro B 1m](https://yushakobo.jp/shop/usb_cable_micro_b/)[自作ケーブルキット](https://yushakobo.jp/shop/self-made-cable/)           |
+| Micro USBケーブル※ | [ケーブル](https://talpkeyboard.stores.jp/?category_id=5df828e87f16477b03950e7b) | [USBケーブル Micro B 1m](https://yushakobo.jp/shop/usb_cable_micro_b/)<br>[自作ケーブルキット](https://yushakobo.jp/shop/self-made-cable/)           |
 | TRRSケーブル※（分割キーボードの場合）              |                                                              | [TRRSケーブル 1m](https://yushakobo.jp/shop/trrs_cable/)<br>[自作ケーブルキット](https://yushakobo.jp/shop/self-made-cable/)             |
 
 ※コストを抑えたい場合はMicro USBケーブル、TRRSケーブル（AUXオーディオ接続コード）を100円ショップで調達する方法もあります。

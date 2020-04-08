@@ -9,6 +9,8 @@ SU120は最大120キーまで拡張可能な自作キーボード基板です。
 
 基板に添付のビスケットとM1.4ネジで自由なレイアウトを組むことができます。
 
+[e3w2q/su120-keyboard: Expandable keyboard with up to 120 keys](https://github.com/e3w2q/su120-keyboard)
+
 これまでは、ほしい方が基板製造業者に直接発注し、パーツ類も別途買い揃えるしかありませんでしたが、[TALP KEYBOARD](https://talpkeyboard.stores.jp/news/5e7ef1d09df163298ccc0521)にてSU120の取り扱いが始まり、[ほぼ週刊キーボードニュース #55](https://youtu.be/f5VaYMY0nKM?t=1435)でも取り上げていただきました。
 
 ## SU120をおすすめするケース

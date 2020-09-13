@@ -86,7 +86,9 @@ Datamancerの高級感のあるタイプライター風のキーキャップで�
 
 ![11](11.jpg)
 
-[TEX ADA ABS 0.8Uブランクキーキャップ (2個/ブラック)](https://talpkeyboard.stores.jp/items/5f5444c380933970d139e98c)
+[TEX ADA ABS 0.8Uブランクキーキャップ (2個/ブラック) TALPKEYBOARD](https://talpkeyboard.stores.jp/items/5f5444c380933970d139e98c)
+
+[TEX ADA Blank Keycaps (1個) 遊舎工房](https://yushakobo.jp/shop/tex-ada-blank-keycaps-1/) ※サイズ0.8Uのほうです。
 
 待っていました。数少ない3Dプリント品ではない挟ピッチ対応キーキャップです。TEX社のキーボード(SHINOBI)でModifierキーで使われているものです。TALP KEYBOARDさんから販売されています。
 
@@ -212,7 +214,8 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 | [ミニキーキャップ 72個](https://make.dmm.com/item/1125390/)  | 14mm           | ○    |      |         | なし | 72    | 4,847  | 67    |
 | [1514C keycap 48個](https://make.dmm.com/item/1190156/)      | 15×14mm        |      | ○    |         | なし | 48    |        |       |
 | [Datamancer Typewriter Keycaps](https://datamancer.com/product-category/?catid=/keycaps/) | 15mm           | ○    |      | 未確認  | あり | 104   | 13,280 | 128   |
-| [TEX ADA ABS 0.8Uブランクキーキャップ](https://talpkeyboard.stores.jp/items/5f5444c380933970d139e98c) | 16mm           | ○    |      |         | なし | 2     | 150    | 75    |
+| [TEX ADA ABS 0.8Uブランクキーキャップ（TALPKEYBOARD）](https://talpkeyboard.stores.jp/items/5f5444c380933970d139e98c) | 16mm           | ○    |      |         | なし | 2     | 150    | 75    |
+| [TEX ADA ABS 0.8Uブランクキーキャップ（遊舎工房）](https://yushakobo.jp/shop/tex-ada-blank-keycaps-1/) | 16mm           | ○    |      |         | なし | 1     | 75    | 75    |
 | [薙刀式3Dキーキャップ【MX】【狭ピッチ16mm用】標準36個セット](https://make.dmm.com/item/1126849/) | 16mm           | ○    |      |         | なし | 36    | 4,800  | 133   |
 | [薙刀式3Dキーキャップ【choc】【狭ピッチ16mm用】標準54個セット](https://make.dmm.com/item/1136652/) | 16mm           |      | ○    |         | なし | 54    | 4,200  | 78    |
 | [TL Split Keyboard用キーキャップ](https://make.dmm.com/item/1220832/) | 16mm           | ○    |      |         | なし | 72    | 7,700  | 107   |

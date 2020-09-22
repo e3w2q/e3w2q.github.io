@@ -215,7 +215,7 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 | [1514C keycap 48個](https://make.dmm.com/item/1190156/)      | 15×14mm        |      | ○    |         | なし | 48    |        |       |
 | [Datamancer Typewriter Keycaps](https://datamancer.com/product-category/?catid=/keycaps/) | 15mm           | ○    |      | 未確認  | あり | 104   | 13,280 | 128   |
 | [TEX ADA ABS 0.8Uブランクキーキャップ（TALPKEYBOARD）](https://talpkeyboard.stores.jp/items/5f5444c380933970d139e98c) | 16mm           | ○    |      |         | なし | 2     | 150    | 75    |
-| [TEX ADA ABS 0.8Uブランクキーキャップ（遊舎工房）](https://yushakobo.jp/shop/tex-ada-blank-keycaps-1/) | 16mm           | ○    |      |         | なし | 1     | 75    | 75    |
+| [TEX ADA ABS 0.8Uブランクキーキャップ（遊舎工房）]https://yushakobo.jp/shop/tex-ada-blank-keycaps-1/) | 16mm           | ○    |      |         | なし | 1     | 82.5    | 82.5    |
 | [薙刀式3Dキーキャップ【MX】【狭ピッチ16mm用】標準36個セット](https://make.dmm.com/item/1126849/) | 16mm           | ○    |      |         | なし | 36    | 4,800  | 133   |
 | [薙刀式3Dキーキャップ【choc】【狭ピッチ16mm用】標準54個セット](https://make.dmm.com/item/1136652/) | 16mm           |      | ○    |         | なし | 54    | 4,200  | 78    |
 | [TL Split Keyboard用キーキャップ](https://make.dmm.com/item/1220832/) | 16mm           | ○    |      |         | なし | 72    | 7,700  | 107   |
@@ -223,10 +223,10 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 | [YKNキーキャップセット(Choc・16mmキーピッチ用) v1.1](https://make.dmm.com/item/1228593/) | 16mm           |      | ○    |         | なし | 87    | 5,940  | 68    |
 | [YKNキーキャップセット(Choc V2/MX・16mmキーピッチ用) v1.1](https://make.dmm.com/item/1229497/) | 16mm           | ○    |      | ○       | なし | 87    | 5,940  | 68    |
 | [OYKキーキャップセット(Choc V2/MX・16mmキーピッチ用) v1.0](https://make.dmm.com/item/1229506/) | 16mm           | ○    |      | ○       | なし | 87    | 5,940  | 68    |
-| [フローティングタイプ104 キートップセット英語版](https://yushakobo.jp/shop/a0300bf/) | 17mm           | ○    |      | ○       | あり | 104   | 3,960  | 38    |
-| [Kailhロープロ刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-doubleshot/) | 18×17mm        |      | ○    |         | あり | 104   | 3,300  | 32    |
-| [Kailhロープロ無刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-blank/)（クリア除く） | 18×17mm        |      | ○    |         | なし | 10    | 330    | 33    |
-| [MBK Choc Low-Profile Keycaps](https://yushakobo.jp/shop/mbk-choc-low-profile-keycaps/) | 18×17mm        |      | ○    |         | なし | 10    | 550    | 55    |
+| [フローティングタイプ104 キートップセット英語版](https://yushakobo.jp/shop/a0300bf/) | 17mm           | ○    |      | ○       | あり | 104   | 4,356  | 42    |
+| [Kailhロープロ刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-doubleshot/) | 18×17mm        |      | ○    |         | あり | 104   | 3,630  | 35    |
+| [Kailhロープロ無刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-blank/)（クリア除く） | 18×17mm        |      | ○    |         | なし | 10    | 363    | 36    |
+| [MBK Choc Low-Profile Keycaps](https://yushakobo.jp/shop/mbk-choc-low-profile-keycaps/) | 18×17mm        |      | ○    |         | なし | 10    | 605    | 60    |
 
 ※数量は1Uサイズ以外が含まれている場合もあるので、詳しくはリンク先をご確認ください
 

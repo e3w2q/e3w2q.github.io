@@ -14,11 +14,11 @@
 
 pid.codesのスタンスは以下をご覧ください。
 
-[Welcome to pid.codes ? pid.codes](http://pid.codes/pidcodes/2015/04/03/welcome/)
+[Welcome to pid.codes - pid.codes](http://pid.codes/pidcodes/2015/04/03/welcome/)
 
 なお、pid.codesが取得したとしているVIDの0x1209は、USB-IFの文書に廃止されたVIDとして挙げられています。詳しくは以下をご覧ください。
 
-[Issues ・ pidcodes/pidcodes.github.com](https://github.com/pidcodes/pidcodes.github.com/issues/480)
+[USB-IF says 0x1209 is an obsolete VID. - Issue #480 - pidcodes/pidcodes.github.com - GitHub](https://github.com/pidcodes/pidcodes.github.com/issues/480)
 
 ## 割り当てを受けるまでの手順
 

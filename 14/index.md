@@ -239,7 +239,7 @@ AIST人体寸法データベース 1991-92の青年男性手長と米国陸軍�
 | [小林 (1992)](#小林-雅幸-1992-キーボードのキーピッチが操作性に及ぼす影響-人間工学-28-巻-supplement-号-448-449) | 12名               | 18×18mm、19×19mm                                           | なし                                            |
 | [Yoshitake (1995)](#ryohji-yoshitake-1995-relationship-between-key-space-and-user-performance-on-reduced-keyboards-applied-human-science-vol14-no6-287-292) | 指が大きい4名      | 15.6×15.6mm、16×16mm、16.7×16.7mm、19.05×mm                | 15×15mm                                         |
 | 同上                                                         | 指が小さい4名      | 15×15mm、15.6×15.6mm、16×16mm、16.7×16.7mm、19.05×mm       | なし                                            |
-| [Watanabe (1998)](#goro-watanabe-tamotsu-koike-hideyuki-motoyama-1998-small-low-profile-keyboard-that-does-notimpair-operability-fujitsu-scientific-and-technical-journal-34-1-112-118) |                    | 13.05×19.05mm、15.05×19.05mm、17.05×19.05mm、19.05×19.05mm | なし                                            |
+| [Watanabe (1998)](#goro-watanabe-tamotsu-koike-hideyuki-motoyama-1998-small-low-profile-keyboard-that-does-notimpair-operability-fujitsu-scientific-and-technical-journal-34-1-112-118) | 記載なし           | 13.05×19.05mm、15.05×19.05mm、17.05×19.05mm、19.05×19.05mm | なし                                            |
 | [Pereira (2012)](#anna-pereira-david-l-lee-harini-sadeeshkumar-charles-laroche-dan-odell-david-rempel-2012-the-effect-of-keyboard-key-spacing-on-productivity-usability-and-biomechanics-in-touch-typists-with-large-hands-proceedings-of-the-human-factors-and-ergonomics-society-annual-meeting-56-1-1872-1876) | 指が大きい37名     | 17×17mm、17×19mm、18×19mm、19×19mm                         | 16×19mm                                         |
 | [Pereira (2014)](#anna-pereira-chih-ming-hsieh-charles-laroche-david-rempel-2014-the-effect-of-keyboard-key-spacing-on-typing-speed-error-usability-and-biomechanics-part-2-vertical-spacing-human-factors-the-journal-of-the-human-factors-and-ergonomics-society-56-4-752-759) | 指が大きい男性26名 | 16×17mm、17×17mm、18×17mm、16×18mm                         | 15.5×17mm                                       |
 | 同上                                                         | 指が小さい女性26名 | 16×17mm、17×17mm、18×17mm、16×18mm                         | 15.5×17mm                                       |
@@ -253,7 +253,7 @@ AIST人体寸法データベース 1991-92の青年男性手長と米国陸軍�
 
 ### 日本の論文
 
-岩崎 (1991)、小林 (1992)、Yoshitake (1995)、Watanabe (1998)はいずれも国内の研究者による論文です。
+[岩崎 (1991)](#岩崎-昭浩-上田-義弘-津田-光弘-1991-小型キーボードの研究--縮小ピッチキーボードの操作性検討とデザイン提案口頭による研究発表第38回研究発表大会-人間工学-1991-巻-87-号-26)、[小林 (1992)](#小林-雅幸-1992-キーボードのキーピッチが操作性に及ぼす影響-人間工学-28-巻-supplement-号-448-449)、[Yoshitake (1995)](#ryohji-yoshitake-1995-relationship-between-key-space-and-user-performance-on-reduced-keyboards-applied-human-science-vol14-no6-287-292)、[Watanabe (1998)](#goro-watanabe-tamotsu-koike-hideyuki-motoyama-1998-small-low-profile-keyboard-that-does-notimpair-operability-fujitsu-scientific-and-technical-journal-34-1-112-118)はいずれも国内の研究者による論文です。
 
 岩崎氏らとWatanabe氏らは富士通所属、小林氏は日本電気所属、Yoshitake氏は日本IBM所属であり、小型キーボードの商品化の検討の一環としてキーピッチによる影響を研究していた可能性があります。論文中に研究の背景としてそのようなことを書いているものもありました。
 
@@ -264,11 +264,11 @@ AIST人体寸法データベース 1991-92の青年男性手長と米国陸軍�
 
 という結果です。
 
-これらの中でもYoshitake (1995)は指の大きさに着目して結果を分析しており、高速タイピスト（wpm40程度以上）のうち指が大きい（中指の長さ平均8.48cm、中指第二関節の幅平均2.24cm）4名は15mmピッチで有意な速度低下が見られた、と書かれています。
+これらの中でも[Yoshitake (1995)](#ryohji-yoshitake-1995-relationship-between-key-space-and-user-performance-on-reduced-keyboards-applied-human-science-vol14-no6-287-292)は指の大きさに着目して結果を分析しており、高速タイピスト（wpm40程度以上）のうち指が大きい（中指の長さ平均8.48cm、中指第二関節の幅平均2.24cm）4名は15mmピッチで有意な速度低下が見られた、と書かれています。
 
 ![](4610.png)
 
-Yoshitake (1995)より引用
+[Yoshitake (1995)](#ryohji-yoshitake-1995-relationship-between-key-space-and-user-performance-on-reduced-keyboards-applied-human-science-vol14-no6-287-292)より引用
 
 ただし、論文中の図を見ると指が大きいグループでは16mmキーピッチ以下になると速度が低下しはじめています。一方で指が小さいグループは19mmキーピッチから15mmキーピッチまでパフォーマンスにほとんど差がありません。
 
@@ -282,9 +282,9 @@ Yoshitake (1995)より引用
 
 ### 海外の論文
 
-残りのPereira (2012)、Pereira (2014)、Madison (2015)は研究グループの主要メンバーが同じであり、一連の研究となっています。
+残りの[Pereira (2012)](#anna-pereira-david-l-lee-harini-sadeeshkumar-charles-laroche-dan-odell-david-rempel-2012-the-effect-of-keyboard-key-spacing-on-productivity-usability-and-biomechanics-in-touch-typists-with-large-hands-proceedings-of-the-human-factors-and-ergonomics-society-annual-meeting-56-1-1872-1876)、[Pereira (2014)](#anna-pereira-chih-ming-hsieh-charles-laroche-david-rempel-2014-the-effect-of-keyboard-key-spacing-on-typing-speed-error-usability-and-biomechanics-part-2-vertical-spacing-human-factors-the-journal-of-the-human-factors-and-ergonomics-society-56-4-752-759)、[Madison (2015)](#heather-madison-anna-pereira-mette-korshoj-laura-taylor-alan-barr-david-rempel-2015-mind-the-gap-the-effect-of-keyboard-key-gap-and-pitch-on-typing-speed-accuracy-and-usability-part-3-human-factors-the-journal-of-the-human-factors-and-ergonomics-society-57-7-1188-1194)は研究グループの主要メンバーが同じであり、一連の研究となっています。
 
-Pereira (2012)では特に指が大きい人（中指の長さ8.7cm以上または中指第二関節の幅2.3cm以上）を集めて実験が行われました。
+[Pereira (2012)](#anna-pereira-david-l-lee-harini-sadeeshkumar-charles-laroche-dan-odell-david-rempel-2012-the-effect-of-keyboard-key-spacing-on-productivity-usability-and-biomechanics-in-touch-typists-with-large-hands-proceedings-of-the-human-factors-and-ergonomics-society-annual-meeting-56-1-1872-1876)では特に指が大きい人（中指の長さ8.7cm以上または中指第二関節の幅2.3cm以上）を集めて実験が行われました。
 
 結果は、縦16×横19mmキーピッチで有意なパフォーマンス低下が見られたものの、残りのキーピッチ（17mmキーピッチ含む）では有意な差は見られませんでした。
 
@@ -292,9 +292,11 @@ Pereira (2012)では特に指が大きい人（中指の長さ8.7cm以上また�
 
 ![](2639.png)
 
+[Pereira (2012)](#anna-pereira-david-l-lee-harini-sadeeshkumar-charles-laroche-dan-odell-david-rempel-2012-the-effect-of-keyboard-key-spacing-on-productivity-usability-and-biomechanics-in-touch-typists-with-large-hands-proceedings-of-the-human-factors-and-ergonomics-society-annual-meeting-56-1-1872-1876)より引用
+
 この実験の対象者である中指の長さ8.7cm以上というのは、AIST人体寸法データベース 1991-92の青年層データでは男性216人中9人、女性は204人中該当者0なので、日本人においては相当指が大きい人と言えます。そして、そういった人でさえ17mmキーピッチで速度が明らかに落ちないというのはかなり興味深い結果です。
 
-Madison (2015)では手の大きさに関わらず16mmキーピッチが17mmキーピッチと比較して有意なパフォーマンス低下が見られましたが、この実験では対象者がそれぞれのキーボードで2分間ずつ3回の試行を行った結果によるものであり、長期の試行ではないことに注意が必要です。
+[Madison (2015)](#heather-madison-anna-pereira-mette-korshoj-laura-taylor-alan-barr-david-rempel-2015-mind-the-gap-the-effect-of-keyboard-key-gap-and-pitch-on-typing-speed-accuracy-and-usability-part-3-human-factors-the-journal-of-the-human-factors-and-ergonomics-society-57-7-1188-1194)では手の大きさに関わらず16mmキーピッチが17mmキーピッチと比較して有意なパフォーマンス低下が見られましたが、この実験では対象者がそれぞれのキーボードで2分間ずつ3回の試行を行った結果によるものであり、長期の試行ではないことに注意が必要です。
 
 ### 論文を読んでみて
 
@@ -534,7 +536,7 @@ ISO 9241-4:1998の改定版です。
 
 ### 1988 Anthropometric Survey of US Army Personnel (ANSUR)
 
-URL：https://www.researchgate.net/publication/277984979_Anthropometric_Survey_of_US_Army_Personnel_Summary_Statistics_Interim_Report_for_1988
+URL：[https://www.researchgate.net/publication/277984979_Anthropometric_Survey_of_US_Army_Personnel_Summary_Statistics_Interim_Report_for_1988](https://www.researchgate.net/publication/277984979_Anthropometric_Survey_of_US_Army_Personnel_Summary_Statistics_Interim_Report_for_1988)
 
 陸軍要員の1987年から1988年にかけてアメリカ軍の人体測定調査の結果の統計データが掲載されています。データは、1988年6月の現役軍人の年齢と人種の比率に一致するようにサンプリングされた要員のサブセット（男性1774人と女性2208人）について示されています。
 
@@ -558,7 +560,7 @@ URL：https://www.researchgate.net/publication/277984979_Anthropometric_Survey_o
 
 産業技術総合研究所の指定する引用表記：河内まき子・持丸正明、2005 AIST人体寸法データベース、産業技術総合研究所H16PRO 287。
 
-URL：https://www.airc.aist.go.jp/dhrt/91-92/
+URL：[https://www.airc.aist.go.jp/dhrt/91-92/](https://www.airc.aist.go.jp/dhrt/91-92/)
 
 メールで申請し使用同意書に同意すると、1991年と1992年の7月から8月にかけて、青年男子217名、女子204名、高齢者男女各50名について計測された被験者ひとりひとりの全寸法項目の生データが提供されます。
 
@@ -659,7 +661,7 @@ URL：https://www.airc.aist.go.jp/dhrt/91-92/
 
 産業技術総合研究所の指定する引用表記：河内まき子，持丸正明，岩澤洋，三谷誠二（2000）：日本人人体寸法データベース1997-98，通商産業省工業技術院くらしとJISセンター
 
-URL：https://www.airc.aist.go.jp/dhrt/97-98/index.html
+URL：[https://www.airc.aist.go.jp/dhrt/97-98/index.html](https://www.airc.aist.go.jp/dhrt/97-98/index.html)
 
 メールで申請し使用同意書に同意すると、1997年5月から1998年4月にかけて、青年男子110名、女子107名、高齢者男子51名、高齢者女子50名について計測された被験者ひとりひとりの全寸法項目の生データが提供されます。
 
@@ -671,7 +673,7 @@ URL：https://www.airc.aist.go.jp/dhrt/97-98/index.html
 
 ### NASA-STD-3000, the Man-System Integration Standards (1995)
 
-URL：https://msis.jsc.nasa.gov/sections/section03.htm
+URL：[https://msis.jsc.nasa.gov/sections/section03.htm](https://msis.jsc.nasa.gov/sections/section03.htm)
 
 Volume I, Section 3 ANTHROPOMETRY AND BIOMECHANICS に、人体データが掲載されています。
 
@@ -695,7 +697,7 @@ Volume I, Section 3 ANTHROPOMETRY AND BIOMECHANICS に、人体データが掲�
 
 ### NASA Constellation Program Human-System Integration Requirements (2010)
 
-URL：https://ntrs.nasa.gov/citations/20120014522
+URL：[https://ntrs.nasa.gov/citations/20120014522](https://ntrs.nasa.gov/citations/20120014522)
 
 APPENDIX B  ANTHROPOMETRY, BIOMECHANICS, AND STRENGTH に、アメリカ人女性および男性の一般的な体格寸法のデータの範囲が記載されています。
 
@@ -707,7 +709,7 @@ APPENDIX B  ANTHROPOMETRY, BIOMECHANICS, AND STRENGTH に、アメリカ人女�
 
 ### 一般社団法人 人間生活工学研究センター 在日外国人の身体特性計測 結果概要報告 (2011)
 
-PDF：https://www.hql.jp/hql/wp/wp-content/uploads/2017/08/non_japanese2011.pdf
+PDF：[https://www.hql.jp/hql/wp/wp-content/uploads/2017/08/non_japanese2011.pdf](https://www.hql.jp/hql/wp/wp-content/uploads/2017/08/non_japanese2011.pdf)
 
 報告書は有償ですが、概要であればWebで閲覧できます。
 
@@ -722,7 +724,7 @@ PDF：https://www.hql.jp/hql/wp/wp-content/uploads/2017/08/non_japanese2011.pdf
 
 産業技術総合研究所の指定する引用表記：河内まき子、2012：AIST日本人の手の寸法データ。
 
-URL：https://www.airc.aist.go.jp/dhrt/hand/index.html
+URL：[https://www.airc.aist.go.jp/dhrt/hand/index.html](https://www.airc.aist.go.jp/dhrt/hand/index.html)
 
 2004年～2011年に日本人男女530名について計測された、72項目の手の寸法の男女別統計量が公開されています。AIST人体寸法データベース 1991-92よりも多くの部分が測定されています。なお、個別データは提供されていません。
 
@@ -738,9 +740,9 @@ URL：https://www.airc.aist.go.jp/dhrt/hand/index.html
 
 ### 2012 Anthropometric Survey of US Army Personnel (ANSUR2)
 
-URL：https://www.hsdl.org/?abstract&did=762624
+URL：[https://www.hsdl.org/?abstract&did=762624](https://www.hsdl.org/?abstract&did=762624)
 
-2012年測定されたアメリカ陸軍兵士の人体測定調査の結果の統計データが掲載されています。対象は男性7435人、女性3922人で、現役軍人、州兵、予備役が含まれています。
+2012年に測定されたアメリカ陸軍兵士の人体測定調査の結果の統計データが掲載されています。対象は男性7435人、女性3922人で、現役軍人、州兵、予備役が含まれています。
 
 個々人のデータが[Matthew P. Reed, PhD](http://mreed.umtri.umich.edu/mreed/)氏の[Downloads](http://mreed.umtri.umich.edu/mreed/downloads.html#ansur2)やペンシルベニア州立大学の[ANSUR II | The OPEN Design Lab](https://www.openlab.psu.edu/ansur2/)からから入手できます。
 
@@ -763,9 +765,9 @@ URL：https://www.hsdl.org/?abstract&did=762624
 
 ### 坂村 健 (1986). BTRONにおける入力方式　－TRONキーボードの設計－, 情報処理学会研究報告 日本語文書処理 2 (7), 1-8
 
-リンク：http://id.nii.ac.jp/1001/00037816/
+リンク：[http://id.nii.ac.jp/1001/00037816/](http://id.nii.ac.jp/1001/00037816/)
 
-PDF：https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=37816&file_id=1&file_no=1
+PDF：[https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=37816&file_id=1&file_no=1](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=37816&file_id=1&file_no=1)
 
 日本人の手の大きさに合ったキーボードを求めるために20才～60才の男女約150名に対して手の寸法、機能の測定を行い、親指と手首を固定した状態での指の動く範囲に収まるようにキーを配置したと書かれています。
 
@@ -774,13 +776,13 @@ PDF：https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=37816&file_i
 
 また、衣類や靴のように小さな手、大きな手用の複数のサイズのキーボードが実際に提供されることを期待している、と書かれています。
 
-この論文にはTRONキーボードのキーのサイズは具体的に書かれていませんが、[キーボード #1 Advent Calendar 2020](https://adventar.org/calendars/5279)の10日目の記事[TRONキーボード製作のあれこれ ? 埋立地の記憶](https://landfilljp.wordpress.com/2020/12/10/advent2020/)によると、TRONキーボードはS（14mm)・M（16mm）・L（18mm）と3サイズ規定され、このうち市販はMサイズのみだったとのことです。
+この論文にはTRONキーボードのキーのサイズは具体的に書かれていませんが、satromiさんの[TRONキーボード製作のあれこれ ? 埋立地の記憶](https://landfilljp.wordpress.com/2020/12/10/advent2020/)によると、TRONキーボードはS（14mm)・M（16mm）・L（18mm）と3サイズ規定され、このうち市販はMサイズのみだったとのことです。
 
 ### 岩崎 昭浩, 上田 義弘, 津田 光弘 (1991). 小型キーボードの研究 : 縮小ピッチキーボードの操作性検討とデザイン提案(口頭による研究発表,第38回研究発表大会), 人間工学, 1991 巻 87 号, 26
 
-リンク：https://www.jstage.jst.go.jp/article/jssdj/1991/87/1991_KJ00007025854/_article/-char/ja
+リンク：[https://www.jstage.jst.go.jp/article/jssdj/1991/87/1991_KJ00007025854/_article/-char/ja](https://www.jstage.jst.go.jp/article/jssdj/1991/87/1991_KJ00007025854/_article/-char/ja)
 
-PDF：https://www.jstage.jst.go.jp/article/jssdj/1991/87/1991_KJ00007025854/_pdf/-char/ja
+PDF：[https://www.jstage.jst.go.jp/article/jssdj/1991/87/1991_KJ00007025854/_pdf/-char/ja](https://www.jstage.jst.go.jp/article/jssdj/1991/87/1991_KJ00007025854/_pdf/-char/ja)
 
 被験者：第一次実験では健康な9名（男性8名、女性1名）、第二次実験ではブラインドタッチが可能で各実験機器に慣れた男性3名
 
@@ -794,9 +796,9 @@ PDF：https://www.jstage.jst.go.jp/article/jssdj/1991/87/1991_KJ00007025854/_pdf
 
 ### 小林 雅幸 (1992). キーボードのキーピッチが操作性に及ぼす影響, 人間工学, 28 巻 Supplement 号, 448-449
 
-リンク：https://www.jstage.jst.go.jp/article/jje1965/28/Supplement/28_Supplement_448/_article/-char/ja
+リンク：[https://www.jstage.jst.go.jp/article/jje1965/28/Supplement/28_Supplement_448/_article/-char/ja](https://www.jstage.jst.go.jp/article/jje1965/28/Supplement/28_Supplement_448/_article/-char/ja)
 
-PDF：https://www.jstage.jst.go.jp/article/jje1965/28/Supplement/28_Supplement_448/_pdf/-char/ja
+PDF：[https://www.jstage.jst.go.jp/article/jje1965/28/Supplement/28_Supplement_448/_pdf/-char/ja](https://www.jstage.jst.go.jp/article/jje1965/28/Supplement/28_Supplement_448/_pdf/-char/ja)
 
 被験者：初級者～上級者、20～40代男女　合計12名
 
@@ -816,9 +818,9 @@ PDF：https://www.jstage.jst.go.jp/article/jje1965/28/Supplement/28_Supplement_4
 
 ### Ryohji Yoshitake (1995). Relationship between Key Space and User Performance on Reduced Keyboards, Applied Human Science, Vol.14 No.6, 287-292.
 
-リンク：https://www.jstage.jst.go.jp/article/ahs1995/14/6/14_6_287/_article/-char/ja
+リンク：[https://www.jstage.jst.go.jp/article/ahs1995/14/6/14_6_287/_article/-char/ja](https://www.jstage.jst.go.jp/article/ahs1995/14/6/14_6_287/_article/-char/ja)
 
-PDF：https://www.jstage.jst.go.jp/article/ahs1995/14/6/14_6_287/_pdf/-char/ja
+PDF：[https://www.jstage.jst.go.jp/article/ahs1995/14/6/14_6_287/_pdf/-char/ja](https://www.jstage.jst.go.jp/article/ahs1995/14/6/14_6_287/_pdf/-char/ja)
 
 被験者：アメリカ在住男性5名・女性5名　日本在住男性5名・女性3名　合計18名
 
@@ -836,9 +838,9 @@ PDF：https://www.jstage.jst.go.jp/article/ahs1995/14/6/14_6_287/_pdf/-char/ja
 
 ### Goro Watanabe, Tamotsu Koike, Hideyuki Motoyama (1998). Small, Low-profile Keyboard That Does NotImpair Operability, Fujitsu scientific and technical journal, 34 (1), 112-118.
 
-リンク：https://www.fujitsu.com/global/about/resources/publications/fstj/archives/vol34-1.html
+リンク：[https://www.fujitsu.com/global/about/resources/publications/fstj/archives/vol34-1.html](https://www.fujitsu.com/global/about/resources/publications/fstj/archives/vol34-1.html)
 
-PDF：https://www.fujitsu.com/global/documents/about/resources/publications/fstj/archives/vol34-1/paper14.pdf
+PDF：[https://www.fujitsu.com/global/documents/about/resources/publications/fstj/archives/vol34-1/paper14.pdf](https://www.fujitsu.com/global/documents/about/resources/publications/fstj/archives/vol34-1/paper14.pdf)
 
 被験者：日常的にタイピングを行う人と行わない人　人数の記載なし
 
@@ -856,9 +858,9 @@ PDF：https://www.fujitsu.com/global/documents/about/resources/publications/fstj
 
 ### Anna Pereira, David L. Lee, Harini Sadeeshkumar, Charles Laroche, Dan Odell, David Rempel (2012). The Effect of Keyboard Key Spacing on Productivity, Usability, and Biomechanics in Touch Typists with Large Hands, Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 56 (1), 1872-1876.
 
-リンク：https://journals.sagepub.com/doi/10.1177/1071181312561271?icid=int.sj-related-articles.similar-articles.3
+リンク：[https://journals.sagepub.com/doi/10.1177/1071181312561271?icid=int.sj-related-articles.similar-articles.3](https://journals.sagepub.com/doi/10.1177/1071181312561271?icid=int.sj-related-articles.similar-articles.3)
 
-PDF：http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.857.7120&rep=rep1&type=pdf
+PDF：[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.857.7120&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.857.7120&rep=rep1&type=pdf)
 
 被験者：30wpm以上、中指の長さ8.7cm以上または中指第二関節の幅2.3cm以上（アメリカ人男性の75%が該当）　37名
 
@@ -872,17 +874,17 @@ PDF：http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.857.7120&rep=rep1
 
 ### Anna Pereira, David L. Lee, Harini Sadeeshkumar, Charles Laroche, Dan Odell, David Rempel (2013). The Effect of Keyboard Key Spacing on Typing Speed, Error, Usability, and Biomechanics: Part 1, Human Factors: The Journal of the Human Factors and Ergonomics Society, 55 (3), 557-566.
 
-リンク：https://journals.sagepub.com/doi/abs/10.1177/0018720812465005
+リンク：[https://journals.sagepub.com/doi/abs/10.1177/0018720812465005](https://journals.sagepub.com/doi/abs/10.1177/0018720812465005)
 
-PDF：https://www.researchgate.net/profile/David_Rempel/publication/247154064_The_Effect_of_Keyboard_Key_Spacing_on_Typing_Speed_Error_Usability_and_Biomechanics_Part_1/links/0f31752ffa69e36178000000/The-Effect-of-Keyboard-Key-Spacing-on-Typing-Speed-Error-Usability-and-Biomechanics-Part-1.pdf
+PDF：[https://www.researchgate.net/profile/David_Rempel/publication/247154064_The_Effect_of_Keyboard_Key_Spacing_on_Typing_Speed_Error_Usability_and_Biomechanics_Part_1/links/0f31752ffa69e36178000000/The-Effect-of-Keyboard-Key-Spacing-on-Typing-Speed-Error-Usability-and-Biomechanics-Part-1.pdf](https://www.researchgate.net/profile/David_Rempel/publication/247154064_The_Effect_of_Keyboard_Key_Spacing_on_Typing_Speed_Error_Usability_and_Biomechanics_Part_1/links/0f31752ffa69e36178000000/The-Effect-of-Keyboard-Key-Spacing-on-Typing-Speed-Error-Usability-and-Biomechanics-Part-1.pdf)
 
 上の論文のタイトルを変更して掲載誌を変えたもののようで、内容は同一でした。
 
 ### Anna Pereira, Chih-Ming Hsieh, Charles Laroche, David Rempel (2014). The Effect of Keyboard Key Spacing on Typing Speed, Error, Usability, and Biomechanics, Part 2: Vertical Spacing, Human Factors: The Journal of the Human Factors and Ergonomics Society, 56 (4), 752-759.
 
-リンク：https://journals.sagepub.com/doi/abs/10.1177/0018720813502524
+リンク：[https://journals.sagepub.com/doi/abs/10.1177/0018720813502524](https://journals.sagepub.com/doi/abs/10.1177/0018720813502524)
 
-PDF：https://www.researchgate.net/profile/David_Rempel/publication/262558889_The_Effect_of_Keyboard_Key_Spacing_on_Typing_Speed_Error_Usability_and_Biomechanics_Part_2_Vertical_Spacing/links/0deec537f69167e938000000.pdf
+PDF：[https://www.researchgate.net/profile/David_Rempel/publication/262558889_The_Effect_of_Keyboard_Key_Spacing_on_Typing_Speed_Error_Usability_and_Biomechanics_Part_2_Vertical_Spacing/links/0deec537f69167e938000000.pdf](https://www.researchgate.net/profile/David_Rempel/publication/262558889_The_Effect_of_Keyboard_Key_Spacing_on_Typing_Speed_Error_Usability_and_Biomechanics_Part_2_Vertical_Spacing/links/0deec537f69167e938000000.pdf)
 
 被験者：中指の長さ7.71cm以下または中指第二関節の幅1.93cm以下の女性26名　中指の長さ8.37cm以上または中指第二関節の幅2.24cm以上の男性26名　合計52名
 
@@ -898,9 +900,9 @@ PDF：https://www.researchgate.net/profile/David_Rempel/publication/262558889_Th
 
 ### Heather Madison, Anna Pereira, Mette Korshoj, Laura Taylor, Alan Barr, David Rempel (2015). Mind the Gap: The Effect of Keyboard Key Gap and Pitch on Typing Speed, Accuracy, and Usability, Part 3, Human Factors: The Journal of the Human Factors and Ergonomics Society, 57 (7), 1188-1194.
 
-リンク：https://journals.sagepub.com/doi/abs/10.1177/0018720815587423
+リンク：[https://journals.sagepub.com/doi/abs/10.1177/0018720815587423](https://journals.sagepub.com/doi/abs/10.1177/0018720815587423)
 
-PDF：https://www.researchgate.net/profile/David_Rempel/publication/277078471_Mind_the_Gap_The_Effect_of_Keyboard_Key_Gap_and_Pitch_on_Typing_Speed_Accuracy_and_Usability_Part_3/links/5658adee08ae4988a7b783d0.pdf
+PDF：[https://www.researchgate.net/profile/David_Rempel/publication/277078471_Mind_the_Gap_The_Effect_of_Keyboard_Key_Gap_and_Pitch_on_Typing_Speed_Accuracy_and_Usability_Part_3/links/5658adee08ae4988a7b783d0.pdf](https://www.researchgate.net/profile/David_Rempel/publication/277078471_Mind_the_Gap_The_Effect_of_Keyboard_Key_Gap_and_Pitch_on_Typing_Speed_Accuracy_and_Usability_Part_3/links/5658adee08ae4988a7b783d0.pdf)
 
 被験者：女性14名　男性11名　合計25名
 

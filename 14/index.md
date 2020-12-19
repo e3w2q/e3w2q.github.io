@@ -347,7 +347,7 @@ MX互換スイッチでは16mm、Kailhロープロファイルスイッチでは
 
 いや、ちゃんとあるんですよ。狭ピッチやるにあたって調べてまとめました。
 
-- [挟ピッチ対応キーキャップを求めて | e3w2q.github.io](https://e3w2q.github.io/10/)
+- [挟ピッチ対応キーキャップを求めて - e3w2q.github.io](https://e3w2q.github.io/10/)
 
 ちゃんとした製品がよければ入手しやすいのは[TEX ADA ABS 0.8Uブランクキーキャップ](https://e3w2q.github.io/10/#tex-ada-abs-08u%E3%83%96%E3%83%A9%E3%83%B3%E3%82%AF%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)だけですね。高くてもよければ[Datamancer Typewriter Keycaps](https://e3w2q.github.io/10/#datamancer-typewriter-keycaps)もあります。
 
@@ -372,7 +372,7 @@ MX互換スイッチでは16mm、Kailhロープロファイルスイッチでは
 そのためにte96という自作キーボード試作基板を作りました。基板設計せずに16～18mmキーピッチの自作キーボードを作成できます。
 
 - [GitHub - e3w2q/te96-keyboard: Expandable keyboard PCB with a smaller pitch.](https://github.com/e3w2q/te96-keyboard)
-- [挟ピッチ自作キーボード基板te96を公開しました | e3w2q.github.io](https://e3w2q.github.io/11/)
+- [挟ピッチ自作キーボード基板te96を公開しました - e3w2q.github.io](https://e3w2q.github.io/11/)
 
 ![natto48](natto48.jpg)
 

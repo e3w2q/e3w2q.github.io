@@ -369,14 +369,13 @@ MX互換スイッチでは16mm、Kailhロープロファイルスイッチでは
 lunchboxという横19×縦17mmキーピッチのキーボードを作られた@lixsさんは、キーキャップをベルトサンダーで削っているとのことです。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">これのおかげで、キーキャップを1時間ぐらいで削ることができた。 <a href="https://t.co/X2U56eEXeM">https://t.co/X2U56eEXeM</a></p>&mdash; lixs (@lixs__) <a href="https://twitter.com/lixs__/status/1254345353303744513?ref_src=twsrc%5Etfw">April 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 40percent.clubにはDREMELで削る方法が載っています。（[@jpskennさん情報](https://twitter.com/jpskenn/status/1340456259342897153)。ありがとうございます。）
 
 - [40% Keyboards: Circumcised Keycaps](https://www.40percent.club/2017/04/circumcised-keycaps.html)
 
 NISSEキーボードのMサイズは、18.8mm用のキーキャップのスカートの部分をCNCフライスでカットして作っていたという記事もありました。
 
-- [新キーボード プロジェクト? - NISSE Mサイズまでの長い道のり | Shiki’s weblog](https://shiki.esrille.com/2015/06/nisse-m.html)
+- [新キーボード プロジェクト? - NISSE Mサイズまでの長い道のり - Shiki’s weblog](https://shiki.esrille.com/2015/06/nisse-m.html)
 
 キーキャップも研究の余地がありそうですね！
 

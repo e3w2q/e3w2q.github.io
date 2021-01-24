@@ -2,11 +2,15 @@
 
 2020/09/10
 
+2020/01/24 Choc 向け 挟ピッチ16mm 薄型キーキャップ、Cherry MX Backlit Low Profile Keycap Setを追加
+
 ![1](1.jpg)
 
 狹ピッチ自作キーボード基板 [te96](https://github.com/e3w2q/te96-keyboard) に使用可能なキーキャップを探す際に調べた、狹ピッチキーボードに使えるキーキャップの情報をまとめました。
 
-- 目次
+<!-- TOC -->
+
+- [狹ピッチ対応キーキャップを求めて](#狹ピッチ対応キーキャップを求めて)
     - [14mmキーピッチ](#14mmキーピッチ)
         - [ミニキーキャップ](#ミニキーキャップ)
     - [15×14mmキーピッチ](#15×14mmキーピッチ)
@@ -18,13 +22,20 @@
         - [薙刀式3Dキーキャップ](#薙刀式3dキーキャップ)
         - [TL Split Keyboard用キーキャップ](#tl-split-keyboard用キーキャップ)
         - [YKNキーキャップ](#yknキーキャップ)
+            - [MX用](#mx用)
+            - [Choc V2/MX用](#choc-v2mx用)
         - [OYKキーキャップ](#oykキーキャップ)
+        - [Choc 向け 挟ピッチ16mm 薄型キーキャップ](#choc-向け-挟ピッチ16mm-薄型キーキャップ)
+    - [16mm＋αキーピッチ](#16mm＋αキーピッチ)
+        - [Cherry MX Backlit Low Profile Keycap Set](#cherry-mx-backlit-low-profile-keycap-set)
     - [17mmキーピッチ](#17mmキーピッチ)
         - [フローティングタイプ104 キートップセット英語版](#フローティングタイプ104-キートップセット英語版)
     - [18×17mmキーピッチ](#18×17mmキーピッチ)
         - [Kailhロープロファイルキーキャップ](#kailhロープロファイルキーキャップ)
         - [MBK Choc Low-Profile Keycaps](#mbk-choc-low-profile-keycaps)
     - [まとめ](#まとめ)
+
+<!-- /TOC -->
 
 ## 14mmキーピッチ
 
@@ -75,6 +86,8 @@ Datamancerの高級感のあるタイプライター風のキーキャップで�
 > The 1u diameter is approximately 9/16" or just over 14 mm.
 
 と返信をいただきました。9/16 inch = 14.2875 mmなので、15mmキーピッチ以上で使用可能と思われます。
+
+19mmキーピッチより狭いキーピッチで1U以外のキーを使う場合は注意が必要です。
 
 対応キースイッチ: MX
 
@@ -168,6 +181,44 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 
 対応キースイッチ: MXとChoc V2
 
+### Choc 向け 挟ピッチ16mm 薄型キーキャップ
+
+![48](48.png)
+
+[Choc 向け 挟ピッチ16mm 薄型キーキャップ](https://make.dmm.com/item/1273303/)
+
+[a bit keys](https://make.dmm.com/shop/269848/)さんが、16mmキーピッチ分割型キーボード[mcsp lp](https://booth.pm/ja/items/2668919)のために設計されたキーキャップです。強度を保ちつつ可能な限り薄く設計したとのことです。
+
+サイズは15.5mm角とのことです。
+
+対応キースイッチ: Choc
+
+## 16mm＋αキーピッチ
+
+### Cherry MX Backlit Low Profile Keycap Set
+
+![47](47.png)
+
+![17](17.jpg)
+
+[Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/)
+
+遊舎工房さんで販売されているお手頃価格のフローティングタイプのキーキャップです。
+
+1Uがちょうど16mm角なので、16mmよりちょっと大きいキーピッチで使えます。
+
+16mmキーピッチだと隣同士のキーが干渉します。
+
+![27](27.jpg)
+
+[Takeshi Nishio (@jpskenn)](https://twitter.com/jpskenn)さんがUnisonという縦16.4mm、横16.8mmピッチのキーボードで使われています。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">GH60互換、60%ケースに収まる狭ピッチキーボード（試作）<br>Keyboard: Unison（ユニゾン）<br>Switch: Gateron Ink Yellow<br>Keycap: Cherry MX Backlit Low Profile Keycap Set<a href="https://twitter.com/hashtag/%E4%BF%BA%E3%82%AD%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#俺キー</a> <a href="https://twitter.com/hashtag/Unison_kbd?src=hash&amp;ref_src=twsrc%5Etfw">#Unison_kbd</a> <a href="https://t.co/LgIf3u4tpp">pic.twitter.com/LgIf3u4tpp</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1353173349640245248?ref_src=twsrc%5Etfw">January 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">縦16.4mm、横16.8mmで普通に打鍵してる時の干渉はないです。でもキースイッチのグラつきが大きいと、もしかすると…<br>国内流通は、遊舎工房さんに白と黒があります。<br>Aliには黒がありますが、白はどこも品切れ。僕が注文していた白は違うキーキャップが送られてきて返金になりました…</p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1353312438033104898?ref_src=twsrc%5Etfw">January 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+なお、19mmキーピッチより狭いキーピッチで1U以外のキーを使う場合は注意が必要です。例えば上のUnisonでは、1.5UのCapsLockキーが16.8mmキーピッチでは2U相当の幅になっています。
+
+対応キースイッチ: MXとChoc V2
+
 ## 17mmキーピッチ
 
 ### フローティングタイプ104 キートップセット英語版
@@ -178,7 +229,7 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 
 遊舎工房さんで販売されているお手頃価格のフローティングタイプのキーキャップです。
 
-[かーくんさん (@kakunkb)](https://twitter.com/kakunkb)に測っていただいたところ16mm台でしたので、17mmキーピッチ以上で使用可能と思われます。
+[かーくん (@kakunkb)](https://twitter.com/kakunkb)さんに測っていただいたところ16mm台でしたので、17mmキーピッチ以上で使用可能と思われます。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">縦横共に16mmぐらいです <a href="https://t.co/nIDNzLRHWl">pic.twitter.com/nIDNzLRHWl</a></p>&mdash; かーくん?? (@kakunkb) <a href="https://twitter.com/kakunkb/status/1294100150747422721?ref_src=twsrc%5Etfw">August 14, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 対応キースイッチ: MXとChoc V2（たぶん）
@@ -201,9 +252,13 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 
 ![46](46.jpg)
 
-[MBK Choc Low-Profile Keycaps](https://yushakobo.jp/shop/mbk-choc-low-profile-keycaps/)
+[MBK Choc Low-Profile Keycaps 遊舎工房](https://yushakobo.jp/shop/mbk-choc-low-profile-keycaps/)
 
-以前遊舎工房さんでグループバイされていて、最近通常販売が始まったKailh Chocスイッチ用のキーキャップです。Kailhロープロファイルキーキャップと同じサイズ感ですが角が立っていない形状がいい感じです。
+[MBK Choc Low Profile キーキャップ Kochi Keyboard](https://kochikeyboard.stores.jp/?category_id=5f7efd0a8f2ebd418089d997)
+
+以前遊舎工房さんでグループバイされていて、今は通常販売されているKailh Chocスイッチ用のキーキャップです。Kailhロープロファイルキーキャップと同じサイズ感ですが角が立っていない形状がいい感じです。
+
+2021/1/24時点で、[遊舎工房さん](https://yushakobo.jp/shop/gb-mbk-legend/)と[Kochi Keyboardさん](https://kochikeyboard.stores.jp/?category_id=5f7efd0a8f2ebd418089d997)で、文字刻印が入ったMBK Legendキーキャップのグループバイが実施されています。
 
 対応キースイッチ: Choc
 
@@ -223,14 +278,17 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 | [YKNキーキャップセット(Choc・16mmキーピッチ用) v1.1](https://make.dmm.com/item/1228593/) | 16mm           |      | ○    |         | なし | 87    | 5,940  | 68    |
 | [YKNキーキャップセット(Choc V2/MX・16mmキーピッチ用) v1.1](https://make.dmm.com/item/1229497/) | 16mm           | ○    |      | ○       | なし | 87    | 5,940  | 68    |
 | [OYKキーキャップセット(Choc V2/MX・16mmキーピッチ用) v1.0](https://make.dmm.com/item/1229506/) | 16mm           | ○    |      | ○       | なし | 87    | 5,940  | 68    |
+| [Choc 向け 挟ピッチ16mm 薄型キーキャップ](https://make.dmm.com/item/1273303/) | 16mm           |      | ○    |         | なし | 50    | 3,960  | 79    |
+| [Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/) | 16+αmm           | ○    |      | ○       | なし | 104   | 3,960  | 38    |
 | [フローティングタイプ104 キートップセット英語版](https://yushakobo.jp/shop/a0300bf/) | 17mm           | ○    |      | ○       | あり | 104   | 4,356  | 42    |
 | [Kailhロープロ刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-doubleshot/) | 18×17mm        |      | ○    |         | あり | 104   | 3,630  | 35    |
 | [Kailhロープロ無刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-blank/)（クリア除く） | 18×17mm        |      | ○    |         | なし | 10    | 363    | 36    |
-| [MBK Choc Low-Profile Keycaps](https://yushakobo.jp/shop/mbk-choc-low-profile-keycaps/) | 18×17mm        |      | ○    |         | なし | 10    | 605    | 60    |
+| [MBK Choc Low-Profile Keycaps（遊舎工房）](https://yushakobo.jp/shop/mbk-choc-low-profile-keycaps/) | 18×17mm        |      | ○    |         | なし | 10    | 550    | 55    |
+| [MBK Choc Low-Profile Keycaps（Kochi Keyboard）](https://kochikeyboard.stores.jp/items/5f7efd334b08395643f28486) | 18×17mm        |      | ○    |         | なし | 5    | 275    | 55    |
 
 ※数量は1Uサイズ以外が含まれている場合もあるので、詳しくはリンク先をご確認ください
 
-※価格は記事を書いている時点の日本円換算、送料抜き　3Dプリント品はナイロンブラック磨きの価格
+※価格は記事を書いている時点の日本円換算、送料抜き　3Dプリント品はナイロンブラック磨きの価格　ただしChoc 向け 挟ピッチ16mm 薄型キーキャップはMJFのみなので、MJFの価格
 
 ※単価は複数サイズが混じっている場合も一律総数で割っています
 

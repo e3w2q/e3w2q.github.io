@@ -4,6 +4,8 @@
 
 2020/01/24 Choc 向け 挟ピッチ16mm 薄型キーキャップ、Cherry MX Backlit Low Profile Keycap Setを追加
 
+2020/03/02 ROCCAT Vulcanを追加　遊舎工房キーキャップレーザー刻印サービス情報を追加　YKN・OYKキーキャップの情報を更新
+
 ![1](1.jpg)
 
 狹ピッチ自作キーボード基板 [te96](https://github.com/e3w2q/te96-keyboard) に使用可能なキーキャップを探す際に調べた、狹ピッチキーボードに使えるキーキャップの情報をまとめました。
@@ -11,6 +13,11 @@
 <!-- TOC -->
 
 - [狹ピッチ対応キーキャップを求めて](#狹ピッチ対応キーキャップを求めて)
+    - [13～19mmキーピッチ](#1319mmキーピッチ)
+        - [YKNキーキャップ・OYKキーキャップ](#yknキーキャップ・oykキーキャップ)
+            - [YKNキーキャップ MX用](#yknキーキャップ-mx用)
+            - [YKNキーキャップ Choc V2/MX用](#yknキーキャップ-choc-v2mx用)
+            - [OYKキーキャップ Choc V2/MX用](#oykキーキャップ-choc-v2mx用)
     - [14mmキーピッチ](#14mmキーピッチ)
         - [ミニキーキャップ](#ミニキーキャップ)
     - [15×14mmキーピッチ](#15×14mmキーピッチ)
@@ -21,13 +28,10 @@
         - [TEX ADA ABS 0.8Uブランクキーキャップ](#tex-ada-abs-08uブランクキーキャップ)
         - [薙刀式3Dキーキャップ](#薙刀式3dキーキャップ)
         - [TL Split Keyboard用キーキャップ](#tl-split-keyboard用キーキャップ)
-        - [YKNキーキャップ](#yknキーキャップ)
-            - [MX用](#mx用)
-            - [Choc V2/MX用](#choc-v2mx用)
-        - [OYKキーキャップ](#oykキーキャップ)
         - [Choc 向け 挟ピッチ16mm 薄型キーキャップ](#choc-向け-挟ピッチ16mm-薄型キーキャップ)
     - [16mm＋αキーピッチ](#16mm＋αキーピッチ)
         - [Cherry MX Backlit Low Profile Keycap Set](#cherry-mx-backlit-low-profile-keycap-set)
+        - [ROCCAT Vulcanシリーズに搭載されているキーキャップ](#roccat-vulcanシリーズに搭載されているキーキャップ)
     - [17mmキーピッチ](#17mmキーピッチ)
         - [フローティングタイプ104 キートップセット英語版](#フローティングタイプ104-キートップセット英語版)
     - [18×17mmキーピッチ](#18×17mmキーピッチ)
@@ -36,6 +40,46 @@
     - [まとめ](#まとめ)
 
 <!-- /TOC -->
+
+## 13～19mmキーピッチ
+
+### YKNキーキャップ・OYKキーキャップ
+
+#### YKNキーキャップ MX用
+
+![24](24.jpg)
+
+![14](14.jpg)
+
+#### YKNキーキャップ Choc V2/MX用
+
+![25](25.jpg)
+
+![15](15.jpg)
+
+#### OYKキーキャップ Choc V2/MX用
+
+![43](43.jpg)
+
+[nekoka](https://make.dmm.com/shop/244759/)さんのキーキャップです。
+
+YKNは普通の四角いキーキャップで、OYKはタイプライター風の丸いキーキャップです。
+
+適合キースイッチはMX、Choc、Choc V2、MidHeightと、自作キーボードで主に使用されるスイッチが網羅されています。
+
+もともと16mmキーピッチ用のみでしたが、拡充されて13mmキーピッチから19mmキーピッチまで網羅されました。ただし19mmキーピッチはChoc用のみです。横19mm×縦13mmなど、横長のキーキャップもあります。
+
+一覧がGoogleスプレッドシートにまとめられているので、ここからのほうが探しやすいです。
+
+[ねこや本店キーキャップまとめ - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1MLsOpANqWQaCEL7-5pNiEV-Wywnlng4f-Qse8dGFAAk/)
+
+セットの中にはバンプが2種類あったり、1.25Uから3U、ISOエンターキーなどの各種サイズが含まれており、汎用性が高くなっています。
+
+凹みは浅めのスフェリカルです。
+
+16mmキーピッチ用のナイロン（磨きなし）の実測値<a href="#foot1">[1]</a>は、14.9mm×15.2mmでした。
+
+これに限らず、DMM.makeのナイロンで出力したキーキャップは縦と横の長さが微妙に異なっていました。ナイロンのデザインルールには「±0.30mm かつ 長軸方向に ±0.15%」と書いてあるので、ナイロン3Dプリント品の特性のようです。実物を注意して見ると正方形ではなく長方形ということがわかる場合もありますので、気になる場合は向きを揃えてキースイッチにはめるとよいです。
 
 ## 14mmキーピッチ
 
@@ -53,9 +97,7 @@
 
 サイトの説明では幅13mmとなっています。
 
-ナイロン（磨きなし）の実測値<a href="#foot1">[1]</a>は12.5mm×13.0mm
-
-これに限らず、DMM.makeのナイロンで出力したキーキャップは縦と横の長さが微妙に異なっていました。ナイロンのデザインルールには「±0.30mm かつ 長軸方向に ±0.15%」と書いてあるので、ナイロン3Dプリント品の特性のようです。実物を注意して見ると正方形ではなく長方形ということがわかる場合もありますので、気になる場合は向きを揃えてキースイッチにはめるとよいです。
+ナイロン（磨きなし）の実測値は12.5mm×13.0mm
 
 対応キースイッチ: MX
 
@@ -149,38 +191,6 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 
 キーキャップの内側がChoc V2 スイッチにぶつかるので、Choc V2スイッチには使えません。
 
-### YKNキーキャップ
-
-#### MX用
-
-![24](24.jpg)
-
-![14](14.jpg)
-
-#### Choc V2/MX用
-
-![25](25.jpg)
-
-![15](15.jpg)
-
-[nekoka](https://make.dmm.com/search/initSearch/u244759)さんのキーキャップです。キースイッチに合わせて[MX用、Choc用、Choc V2/MX用](https://make.dmm.com/search/initSearch/u244759)の3種類があります。バンプが2種類あったり1.5U、2Uが含まれていたりと汎用性が高い印象。
-
-凹みは浅めのスフェリカルです。
-
-ナイロン（磨きなし）の実測値は、MX用、Choc V2/MX用どちらも14.9mm×15.2mm
-
-対応キースイッチ: MX用はMXのみ、Choc用はChocのみ、Choc V2/MX用はChoc V2とMX両対応
-
-### OYKキーキャップ
-
-![43](43.jpg)
-
-[OYKキーキャップ](https://make.dmm.com/item/1229506/)
-
-[nekoka](https://make.dmm.com/search/initSearch/u244759)さんのキーキャップで、こちらは円盤型です。これもセットに1.5U、2Uが含まれているようです。
-
-対応キースイッチ: MXとChoc V2
-
 ### Choc 向け 挟ピッチ16mm 薄型キーキャップ
 
 ![48](48.png)
@@ -219,6 +229,17 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 
 対応キースイッチ: MXとChoc V2
 
+### ROCCAT Vulcanシリーズに搭載されているキーキャップ
+
+![49](49.png)
+
+ゲーミングキーボードのROCCAT Vulcanシリーズに搭載されているキーキャップは裾がないフローティングタイプですので、狭ピッチキーボードに使用できます。ただしキーキャップのみの単体販売はありません。
+
+サイズ感はSumisoさんの以下の一連のツイートがわかりやすいです。縦16mm強、横14mm弱のようです。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">嘘だと言ってよ <a href="https://t.co/GB4S92Cdmy">pic.twitter.com/GB4S92Cdmy</a></p>&mdash; Sumiso (@kutsuhimo3) <a href="https://twitter.com/kutsuhimo3/status/1364782113061396485?ref_src=twsrc%5Etfw">February 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+文字の印字もありますし、キーボードによってはISOエンターも入手可能ですが、19mmキーピッチより狭いキーピッチで1U以外のキーを使う場合は注意が必要です。
+
 ## 17mmキーピッチ
 
 ### フローティングタイプ104 キートップセット英語版
@@ -240,11 +261,15 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 
 ![45](45.jpg)
 
-[Kailhロープロ刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-doubleshot/)
+[Kailhロープロ刻印キーキャップ 遊舎工房](https://yushakobo.jp/shop/pg1350cap-doubleshot/)
 
-[Kailhロープロ無刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-blank/)
+[Kailhロープロ無刻印キーキャップ 遊舎工房](https://yushakobo.jp/shop/pg1350cap-blank/)
+
+[キーキャップレーザー刻印サービス 遊舎工房](https://yushakobo.jp/keycap-laser-marking/)
 
 遊舎工房さんで販売されているKailh Chocスイッチ用のキーキャップです。入手しやすい狹ピッチキーキャップ（そこまで狹ピッチではないにしても）といえば、以前はこれ一択でした。なお、無刻印のキーキャップ色で選択できる「クリア」は19mmキーピッチ用と思われるのでご注意ください。
+
+キーキャップレーザー刻印サービスでは、自由なデザインをレーザー刻印してもらうことができます。
 
 対応キースイッチ: Choc
 
@@ -256,9 +281,13 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 
 [MBK Choc Low Profile キーキャップ Kochi Keyboard](https://kochikeyboard.stores.jp/?category_id=5f7efd0a8f2ebd418089d997)
 
+[キーキャップレーザー刻印サービス 遊舎工房](https://yushakobo.jp/keycap-laser-marking/)
+
 以前遊舎工房さんでグループバイされていて、今は通常販売されているKailh Chocスイッチ用のキーキャップです。Kailhロープロファイルキーキャップと同じサイズ感ですが角が立っていない形状がいい感じです。
 
-2021/1/24時点で、[遊舎工房さん](https://yushakobo.jp/shop/gb-mbk-legend/)と[Kochi Keyboardさん](https://kochikeyboard.stores.jp/?category_id=5f7efd0a8f2ebd418089d997)で、文字刻印が入ったMBK Legendキーキャップのグループバイが実施されています。
+キーキャップレーザー刻印サービスでは、自由なデザインをレーザー刻印してもらうことができます。
+
+2021/2/25まで、[遊舎工房さん](https://yushakobo.jp/shop/gb-mbk-legend/)と[Kochi Keyboardさん](https://kochikeyboard.stores.jp/?category_id=5f7efd0a8f2ebd418089d997)で、文字刻印が入ったMBK Legendキーキャップのグループバイが実施されていました。
 
 対応キースイッチ: Choc
 
@@ -266,6 +295,8 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 
 | 名称                                                         | 対応キーピッチ | MX   | Choc | Choc V2 | 刻印 | 数量※ | 価格※  | 単価※ |
 | ------------------------------------------------------------ | -------------- | ---- | ---- | ------- | ---- | ----- | ------ | ----- |
+| [YKNキーキャップセット](https://make.dmm.com/shop/244759/) | 13～19mm | ○ | ○ | ○ | なし | 86 | 4,840～6,930 | 56～81 |
+| [OYKキーキャップセット](https://make.dmm.com/shop/244759/) | 13～19mm | ○ | ○ | ○ | なし | 86 | 4,730～6,270 | 55～73 |
 | [ミニキーキャップ 72個](https://make.dmm.com/item/1125390/)  | 14mm           | ○    |      |         | なし | 72    | 4,847  | 67    |
 | [1514C keycap 48個](https://make.dmm.com/item/1190156/)      | 15×14mm        |      | ○    |         | なし | 48    |        |       |
 | [Datamancer Typewriter Keycaps](https://datamancer.com/product-category/?catid=/keycaps/) | 15mm           | ○    |      | 未確認  | あり | 104   | 13,280 | 128   |
@@ -279,12 +310,15 @@ MX用はChoc V2 スイッチの円筒ステムにはまらないため、Choc V2
 | [YKNキーキャップセット(Choc V2/MX・16mmキーピッチ用) v1.1](https://make.dmm.com/item/1229497/) | 16mm           | ○    |      | ○       | なし | 87    | 5,940  | 68    |
 | [OYKキーキャップセット(Choc V2/MX・16mmキーピッチ用) v1.0](https://make.dmm.com/item/1229506/) | 16mm           | ○    |      | ○       | なし | 87    | 5,940  | 68    |
 | [Choc 向け 挟ピッチ16mm 薄型キーキャップ](https://make.dmm.com/item/1273303/) | 16mm           |      | ○    |         | なし | 50    | 3,960  | 79    |
-| [Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/) | 16+αmm           | ○    |      | ○       | なし | 104   | 3,960  | 38    |
+| [Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/) | 16+αmm           | ○    |      | ○       | あり | 104   | 3,960  | 38    |
+| [ROCCAT Vulcanシリーズ](https://ja.roccat.org/Keyboards)に搭載されているキーキャップ | 16+αmm | ○ | | 未確認 | あり | TKL～フル | 本体込約14,000～20,000 | 約150～200 |
 | [フローティングタイプ104 キートップセット英語版](https://yushakobo.jp/shop/a0300bf/) | 17mm           | ○    |      | ○       | あり | 104   | 4,356  | 42    |
 | [Kailhロープロ刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-doubleshot/) | 18×17mm        |      | ○    |         | あり | 104   | 3,630  | 35    |
 | [Kailhロープロ無刻印キーキャップ](https://yushakobo.jp/shop/pg1350cap-blank/)（クリア除く） | 18×17mm        |      | ○    |         | なし | 10    | 363    | 36    |
+| Kailhロープロ無刻印キーキャップ+[キーキャップレーザー刻印サービス](https://yushakobo.jp/keycap-laser-marking/) | 18×17mm | | ○ | | あり | 36 | 5,500 | 153 |
 | [MBK Choc Low-Profile Keycaps（遊舎工房）](https://yushakobo.jp/shop/mbk-choc-low-profile-keycaps/) | 18×17mm        |      | ○    |         | なし | 10    | 550    | 55    |
 | [MBK Choc Low-Profile Keycaps（Kochi Keyboard）](https://kochikeyboard.stores.jp/items/5f7efd334b08395643f28486) | 18×17mm        |      | ○    |         | なし | 5    | 275    | 55    |
+| MBK Choc Low-Profile Keycaps+[キーキャップレーザー刻印サービス](https://yushakobo.jp/keycap-laser-marking/) | 18×17mm | | ○ | | あり | 36 | 6,050 | 168 |
 
 ※数量は1Uサイズ以外が含まれている場合もあるので、詳しくはリンク先をご確認ください
 

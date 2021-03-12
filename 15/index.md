@@ -44,12 +44,15 @@
 - [Pro Micro Web Updater](https://sekigon-gonnoc.github.io/promicro-web-updater/index.html)
 
 SU120をPCに接続した状態で、Pro Micro Web Updaterにアクセスし、ダウンロードしたhexファイルを選択し、「flash」をクリックします。
+
 ![](2112.png)
 
 シリアルポートへの接続要求の画面が出ます。
+
 ![](2503.png)
 
 SU120のリセットスイッチを押し、出てきたUSBシリアルデバイスを選択して「接続」をクリックします。
+
 ![](2631.png)
 
 するとファームウェアが書き込まれます。
@@ -64,9 +67,11 @@ SU120のリセットスイッチを押し、出てきたUSBシリアルデバイ
 - [Remap](https://remap-keys.app/)
 
 SU120をPCに接続した状態で、RemapのWebサイトにアクセスし、「START REMAP FOR YOUR KEYBOARD」をクリックします。
+
 ![](2857.png)
 
 「+KEYBOARD」をクリックします。
+
 ![](2934.png)
 
 HIDデバイスへの接続要求の画面が出ます。
@@ -77,9 +82,11 @@ HIDデバイスへの接続要求の画面が出ます。
 - SU120 (4 Rotary Encoders)
 
 のいずれかが表示されますので、選択して「接続」をクリックします。
+
 ![](3046.png)
 
 キー割り当てを変更できる画面が表示されます。
+
 ![](4008.png)
 
 画面上のキーボードのちょっと色の濃い部分は、基板1枚をそのまま使った際のキー範囲です。

@@ -19,7 +19,7 @@ Pangaeaという物理キー配置の調整が可能な自作キーボードの�
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">SU120とBS Flexの中間みたいな、既に部分的な配列ができてる基板同士をつなげ合わせて好きなサイズのキーボードを組み立てるキットがあったらよさそう。<br>カラムスタッガードの親指だけ好きな角度にするとか、小指の長さに合わせて端の2列のずれ量だけ変えるとか</p>&mdash; オタヒーのサメ (@otahinosame) <a href="https://twitter.com/otahinosame/status/1400957887719960577?ref_src=twsrc%5Etfw">June 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 SU120は、私が設計した自作キーボードの試行ができる基板です。
 
-[自作キーボード基板SU120の紹介 | e3w2q.github.io](https://e3w2q.github.io/9/)
+[自作キーボード基板SU120の紹介 - e3w2q.github.io](https://e3w2q.github.io/9/)
 
 ![SU120](SU120.jpg)
 

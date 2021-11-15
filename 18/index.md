@@ -16,7 +16,7 @@
 
 ネジ穴も一緒に出力したいならKiCadを使う方法があります。
 
-参考：魔王様の記事 [いろいろなトッププレートの作り方 | topplate_tips](https://swanmatch.github.io/topplate_tips/)
+参考：魔王様の記事 [いろいろなトッププレートの作り方 - topplate_tips](https://swanmatch.github.io/topplate_tips/)
 
 出力の際には、ファイル→エクスポート→SVGで、SVG形式で出力できます。
 
@@ -32,12 +32,12 @@ DXFやPDFで出力したい場合は、ファイル→プロットから出力�
   - [レーザーカットサービス – 遊舎工房](https://yushakobo.jp/lasercut/)
 - [Anymany（エニメニ）](https://anymany.net/)
   - ページ中の「データ作成ガイド」を参照
-- [切断堂 | 切断堂/レーザー加工によりあなた好みの金属板をどこよりも安く早くお届け](https://setsudando.jp/)
-  - [自作キーボード用パーツの受注製作 | 切断堂](https://setsudando.jp/news/%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E7%94%A8%E3%83%91%E3%83%BC%E3%83%84%E3%81%AE%E5%8F%97%E6%B3%A8%E8%A3%BD%E4%BD%9C/)
-- [Hardware Manufacturing for PCB, CNC, 3D printing & Molding - Elecrow | Make Your Making Easier](https://www.elecrow.com/services.html)
+- [切断堂 - 切断堂/レーザー加工によりあなた好みの金属板をどこよりも安く早くお届け](https://setsudando.jp/)
+  - [自作キーボード用パーツの受注製作 - 切断堂](https://setsudando.jp/news/%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E7%94%A8%E3%83%91%E3%83%BC%E3%83%84%E3%81%AE%E5%8F%97%E6%B3%A8%E8%A3%BD%E4%BD%9C/)
+- [Hardware Manufacturing for PCB, CNC, 3D printing & Molding - Elecrow - Make Your Making Easier](https://www.elecrow.com/services.html)
   - [Acrylic Laser Cutting - Order Online](https://www.elecrow.com/acrylic-cutting.html)
   - [5pcs Wood Laser Cutting Service](https://www.elecrow.com/5pcs-wood-laser-cutting-service.html)
-- [Online Laser Cutting Service | Laserboost](https://www.laserboost.com/)
+- [Online Laser Cutting Service - Laserboost](https://www.laserboost.com/)
   - [Design Guidelines - LaserBoost](https://www.laserboost.com/design-guidelines/)
 
 ## Inkscapeで線種や色を変更する

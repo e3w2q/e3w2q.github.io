@@ -4,29 +4,6 @@
 
 **この記事は書きかけです。未確認の事項を含みます。**
 
-## リンク集
-
-- [picoruby/prk_firmware: A keyboard firmware platform in PicoRuby](https://github.com/picoruby/prk_firmware)
-  - 公式サイト
-- [Home · picoruby/prk_firmware Wiki](https://github.com/picoruby/prk_firmware/wiki)
-  - 公式Wiki
-  - まだ内容は少ないですが、ポイントとなる機能が載っています
-- [picoruby/prk_pipigherkin: A keymap for PiPi Gherkin (Gherkin for Raspberry Pi Pico) on PRK Firmware](https://github.com/picoruby/prk_pipigherkin)
-  - Raspberry Pi Picoを使ったPiPi Gherkinの作例
-  - keymap.rbが一体型キーボードの場合のファームウェアの書き方例として参考になります
-- [picoruby/prk_meishi2: Keymap for meishi2 with PRK firmware](https://github.com/picoruby/prk_meishi2)
-  - MeishiキーボードにPro Micro RP2040を載せた作例
-  - keymap.rbに、キーを押すとフィボナッチ数列を出力したりランダムな英字記号列を出力する書き方が載っています
-- [picoruby/prk_claw44: A keymap for Claw44 on PRK Firmware](https://github.com/picoruby/prk_claw44)
-  - Crow44ににPro Micro RP2040を載せた作例
-  - keymap.rbが分割型キーボードの場合のファームウェアの書き方例として参考になります
-- [picoruby/prk_crkbd: A keymap for Crkbd (Corne) on PRK Firmware](https://github.com/picoruby/prk_crkbd)
-  - Corne KeyboardにPro Micro RP2040を載せた作例
-  - keymap.rbが分割型キーボードの場合のファームウェアの書き方例として参考になります
-- [picoruby/prk_helix_rev3: A keymap for Helix rev3 on PRK Firmware](https://github.com/picoruby/prk_helix_rev3)
-  - Herix rev3にPro Micro RP2040を載せた作例
-  - keymap.rbが分割型キーボード+左右に1個ずつのロータリーエンコーダを置く場合のファームウェアの書き方例として参考になります
-
 ## キーマトリクスに使えるGPIOピン
 
 PRK Firmwareでは以下のように指定します。
@@ -101,7 +78,7 @@ kbd.mutual_uart_at_my_own_risk = true
 
 参考：[Mutual UART communication · picoruby/prk_firmware Wiki](https://github.com/picoruby/prk_firmware/wiki/Mutual-UART-communication)
 
-なお、KMK Firmwareを使った分割キーボードの場合、右手側と左手側で左右間シリアル通信に使うピンを変えないと動かないようです（マスター側はGPIO1、スレーブ側はGPIO0のようにする）。
+なお、KMK Firmwareを使った分割キーボードの場合は、右手側と左手側で左右間シリアル通信に使うピンを変えないと動かないようです（マスター側はGPIO1、スレーブ側はGPIO0のようにする）。
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">そのようですね。ピンの役割（TX/RX）は固定のようでして、KMKはなぜかわざわざ逆を指定しようとしているので、余計なことすんな、って感じで逆に指定してあげてピンの役割どおりにしてあげないと行けないっぽいですね。</p>&mdash; Yoichiro Revision 2.5 (@yoichiro) <a href="https://twitter.com/yoichiro/status/1439059178568359937?ref_src=twsrc%5Etfw">September 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 PRK Firmwareはそのようなことは気にせず、どちらも同じGPIO番号でよいとのことです。
@@ -118,7 +95,36 @@ PRK Firmwareはそのようなことは気にせず、どちらも同じGPIO番�
 なお、Raspberry Pi Pico を使った分割キーボードで、38ピン目のGNDを左右間通信に使うと動作が不安定になった、という事例を拝見しました。
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">VBUS-&gt;VSYS と GND（38ピン同士）を配線していて、近すぎたせいかノイズ発生してて、めっちゃ動作が不安定でした。GNDを33ピン同士にして VBUS-&gt;VSYS から離したことで、ノイズの影響を受けずに、ちゃんと動作するようになりました。 <a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#自作キーボード</a></p>&mdash; Yoichiro Revision 2.5 (@yoichiro) <a href="https://twitter.com/yoichiro/status/1439357283675242501?ref_src=twsrc%5Etfw">September 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+## その他の注意点
 
+VCCとRAWが接続した基板だとPro Micro RP2040はクラッシュするとのことです。
+
+出典：[PRK Firmware: Keyboard is Essentially Ruby - HASUMI Hitoshi - Rabbit Slide Show](https://slide.rabbit-shocker.org/authors/hasumikin/RubyKaigiTakeout2021/)の[14枚目のスライド](https://slide.rabbit-shocker.org/authors/hasumikin/RubyKaigiTakeout2021/13)
+
+## リンク集
+
+- [picoruby/prk_firmware: A keyboard firmware platform in PicoRuby](https://github.com/picoruby/prk_firmware)
+  - 公式サイト
+- [PRK Firmware: Keyboard is Essentially Ruby - HASUMI Hitoshi - Rabbit Slide Show](https://slide.rabbit-shocker.org/authors/hasumikin/RubyKaigiTakeout2021/)
+  - RubyKaigi Takeout 2021のスライド
+- [Home · picoruby/prk_firmware Wiki](https://github.com/picoruby/prk_firmware/wiki)
+  - 公式Wiki
+  - まだ内容は少ないですが、ポイントとなる機能が載っています
+- [picoruby/prk_pipigherkin: A keymap for PiPi Gherkin (Gherkin for Raspberry Pi Pico) on PRK Firmware](https://github.com/picoruby/prk_pipigherkin)
+  - Raspberry Pi Picoを使ったPiPi Gherkinの作例
+  - keymap.rbが一体型キーボードの場合のファームウェアの書き方例として参考になります
+- [picoruby/prk_meishi2: Keymap for meishi2 with PRK firmware](https://github.com/picoruby/prk_meishi2)
+  - MeishiキーボードにPro Micro RP2040を載せた作例
+  - keymap.rbに、キーを押すとフィボナッチ数列を出力したりランダムな英字記号列を出力する書き方が載っています
+- [picoruby/prk_claw44: A keymap for Claw44 on PRK Firmware](https://github.com/picoruby/prk_claw44)
+  - Crow44ににPro Micro RP2040を載せた作例
+  - keymap.rbが分割型キーボードの場合のファームウェアの書き方例として参考になります
+- [picoruby/prk_crkbd: A keymap for Crkbd (Corne) on PRK Firmware](https://github.com/picoruby/prk_crkbd)
+  - Corne KeyboardにPro Micro RP2040を載せた作例
+  - keymap.rbが分割型キーボードの場合のファームウェアの書き方例として参考になります
+- [picoruby/prk_helix_rev3: A keymap for Helix rev3 on PRK Firmware](https://github.com/picoruby/prk_helix_rev3)
+  - Herix rev3にPro Micro RP2040を載せた作例
+  - keymap.rbが分割型キーボード+左右に1個ずつのロータリーエンコーダを置く場合のファームウェアの書き方例として参考になります
 
 [一覧へ](../)
 

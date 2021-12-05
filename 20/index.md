@@ -18,6 +18,10 @@
 - 親指キーも切り離して4キーや3キーにして運用できます。
 - SU120の基板を接続することにより、ファンクションキーやロータリーエンコーダを増設できます。
 
+実際に調整している様子は以下をご覧ください（2倍速です）。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">オタヒーのサメさん <a href="https://twitter.com/otahinosame?ref_src=twsrc%5Etfw">@otahinosame</a> 、e3w2qさん <a href="https://twitter.com/e3w2q?ref_src=twsrc%5Etfw">@e3w2q</a> と進めている Pangaea は rev.3 まで進み可動部の変更で調整しやすく安定度も増しました。もうちょっとこのキーがこっちにずれてくれたらいいのに…などしっくりこない方にはよいかもしれません。拡張性もありますが、まずは調整範囲の動画です。 <a href="https://t.co/x6jwgsiEA3">pic.twitter.com/x6jwgsiEA3</a></p>&mdash; k2 (@k2___________) <a href="https://twitter.com/k2___________/status/1467442697720188931?ref_src=twsrc%5Etfw">December 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## これまでの進捗
 
 6～8月の状況についてはこちらの記事をご覧ください。

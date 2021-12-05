@@ -102,7 +102,7 @@ MT3 WHITE-ON-BLACK KEYCAP SETを付けた例です。
 
 ![pangaea_v100_by_k2](pangaea_v100_by_k2.jpg)
 
-<small><small>Photo by @k2\_\_\_\_\_\_\_\_\_\_\_</small></small>
+<small>Photo by @k2\_\_\_\_\_\_\_\_\_\_\_</small>
 
 ## Interest Checkを実施します
 

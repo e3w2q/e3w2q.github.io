@@ -98,9 +98,11 @@ v0.2.7からSU120用のビスケットに対応したので、キーの増設が
 
 <small>Photo by @otahinosame</small>
 
+MT3 WHITE-ON-BLACK KEYCAP SETを付けた例です。
+
 ![pangaea_v100_by_k2](pangaea_v100_by_k2.jpg)
 
-<small>Photo by @k2\_\_\_\_\_\_\_\_\_\_\_</small>
+<p align="right"><small>Photo by @k2\_\_\_\_\_\_\_\_\_\_\_</small></p>
 
 ## Interest Checkを実施します
 

@@ -21,7 +21,6 @@
 実際に調整している様子は以下をご覧ください（2倍速です）。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">オタヒーのサメさん <a href="https://twitter.com/otahinosame?ref_src=twsrc%5Etfw">@otahinosame</a> 、e3w2qさん <a href="https://twitter.com/e3w2q?ref_src=twsrc%5Etfw">@e3w2q</a> と進めている Pangaea は rev.3 まで進み可動部の変更で調整しやすく安定度も増しました。もうちょっとこのキーがこっちにずれてくれたらいいのに…などしっくりこない方にはよいかもしれません。拡張性もありますが、まずは調整範囲の動画です。 <a href="https://t.co/x6jwgsiEA3">pic.twitter.com/x6jwgsiEA3</a></p>&mdash; k2 (@k2___________) <a href="https://twitter.com/k2___________/status/1467442697720188931?ref_src=twsrc%5Etfw">December 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 ## これまでの進捗
 
 6～8月の状況についてはこちらの記事をご覧ください。
@@ -136,5 +135,9 @@ Pangaeaはそれを一歩進めて、自分が打ちやすい物理キー配列�
 [[IC] Pangaea Keyboard](https://docs.google.com/forms/d/e/1FAIpQLSd-ynO4e0mi7V9eHIMYt2IivI6Gw1Ayzyii7_HXscVI4WSiJQ/viewform)
 
 なお、Interest Checkの中で、テスターとしてご協力をいただける方も募っています。テスターの募集期間は12/12までですが、応募が多い場合は期限を待たずに募集を締め切ることがあります。もし興味のある方がいらっしゃいましたら、ぜひよろしくお願いします。
+
+【12/6追記】
+
+多くの方にInterest Checkのご回答をいただいております。ありがとうございます。テスターの応募も多いことから、テスターの募集を12/8 21時で締め切らせていただきます。よろしくお願いします。
 
 [一覧へ](../)

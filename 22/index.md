@@ -16,7 +16,7 @@
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/KEEB_PD_R39?src=hash&amp;ref_src=twsrc%5Etfw">#KEEB_PD_R39</a> で1番ふぁぼが多かったのは e3w2q さんでした！㊗️<br>おめでとうございます🍾🎉🎈🎊 <a href="https://t.co/9q3XHWaUhu">https://t.co/9q3XHWaUhu</a></p>&mdash; にるｺｯﾎﾟﾗ gangstre🐶 (@nillpo) <a href="https://twitter.com/nillpo/status/1381215613641613320?ref_src=twsrc%5Etfw">April 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 回を重ねるごとに参加者が増え、最多ふぁぼを狙うのは難しくなってきていると思いますが、この記事では私のKEEB_PD写真の撮り方を説明します。
 
-なお、つよつよなカメラを持っている人向けというよりは、いいカメラがないけどKEEB_PDに参加してみたい人向けの内容かなと思います。
+つよつよなカメラを持っている人向けというよりは、いいカメラがないけどKEEB_PDに参加してみたい人向けの内容かなと思います。
 
 ## 撮影機材
 
